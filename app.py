@@ -1,6 +1,6 @@
 """
 app.py
-FiSi Prüfungs-Trainer – Automatische Erkennung aller JSON-Dateien
+FiSi Prüfungs-Trainer – Ignoriert PDF-Namen und nutzt nur die JSON-Dateien
 """
 
 import glob
@@ -24,22 +24,30 @@ if not json_files:
     )
     st.stop()
 
-# Wenn mehrere JSON-Dateien da sind, kann der Nutzer wählen, welche er öffnen möchte
-selected_json_file = st.selectbox("📂 Wähle eine JSON-Datei aus:", json_files)
+# Dropdown zeigt NUR den Namen der JSON-Datei (keine PDFs!)
+selected_json_file = st.selectbox("📂 Wähle ein Lernpaket aus:", json_files)
 
-# Die ausgewählte JSON-Datei dynamisch laden
+# Die JSON-Datei laden
 with open(selected_json_file, "r", encoding="utf-8") as f:
     quizzes = json.load(f)
 
-# Falls das JSON verschachtelt ist (z.B. nach Themen/Bereichen unterteilt)
-quiz_keys = list(quizzes.keys())
-selected_key = st.selectbox(
-    "Wähle einen Bereich aus:", 
-    quiz_keys,
-    format_func=lambda x: f"{x}"
-)
+# Alle Fragen aus der JSON-Datei in einen gemeinsamen Topf werfen, 
+# damit interne Dateinamen (PDFs) komplett verschwinden und ignoriert werden!
+quiz_data = []
+if isinstance(quizzes, dict):
+    for key, value in quizzes.items():
+        if isinstance(value, list):
+            quiz_data.extend(value)
+        elif isinstance(value, dict):
+            quiz_data.append(value)
+elif isinstance(quizzes, list):
+    quiz_data = quizzes
 
-quiz_data = quizzes[selected_key]
+if not quiz_data:
+    st.warning("⚠️ Diese JSON-Datei enthält keine Fragen.")
+    st.stop()
+
+st.success(f"✅ Paket **{selected_json_file}** erfolgreich geladen ({len(quiz_data)} Fragen).")
 st.divider()
 
 # Quiz-Schleife durchlaufen
@@ -48,7 +56,7 @@ for idx, frage in enumerate(quiz_data):
     st.write(f"**{frage.get('frage', '')}**")
 
     # Zustand für diese spezifische Frage im Session State speichern
-    show_key = f"revealed_{selected_json_file}_{selected_key}_{idx}"
+    show_key = f"revealed_{selected_json_file}_{idx}"
     if show_key not in st.session_state:
         st.session_state[show_key] = False
 
@@ -60,14 +68,14 @@ for idx, frage in enumerate(quiz_data):
         options = frage.get("optionen", [])
         st.markdown("*Hinweis: Es können eine oder mehrere Antworten richtig sein.*")
         for opt_idx, option in enumerate(options):
-            if st.checkbox(option, key=f"chk_{selected_json_file}_{selected_key}_{idx}_{opt_idx}"):
+            if st.checkbox(option, key=f"chk_{selected_json_file}_{idx}_{opt_idx}"):
                 user_selected.append(option)
     else:
-        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_json_file}_{selected_key}_{idx}")
+        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_json_file}_{idx}")
 
     # Button zum Prüfen
     if not st.session_state[show_key]:
-        if st.button("Antwort prüfen", key=f"btn_check_{selected_json_file}_{selected_key}_{idx}"):
+        if st.button("Antwort prüfen", key=f"btn_check_{selected_json_file}_{idx}"):
             st.session_state[show_key] = True
             st.rerun()
     else:
@@ -78,7 +86,7 @@ for idx, frage in enumerate(quiz_data):
         if typ == "multiple_choice":
             correct_options = [opt for opt in options if opt.strip().lower() in loesung.lower()]
             
-            # Strenger Mengenabgleich für Multiple-Choice
+            # Strenger Mengenabgleich (erst wenn alles exakt stimmt, ist es richtig)
             if correct_options and set(user_selected) == set(correct_options):
                 is_correct = True
             elif not correct_options:
@@ -88,7 +96,7 @@ for idx, frage in enumerate(quiz_data):
             if isinstance(user_selected, str) and (user_selected.strip().lower() in loesung.lower() or loesung.lower() in user_selected.strip().lower()):
                 is_correct = True
 
-        # Visuelles Feedback
+        # Visuelles Feedback (Richtig vs. Falsch)
         if is_correct:
             st.success("✅ **Richtig! Sehr gut gemacht.**")
         else:
@@ -100,7 +108,7 @@ for idx, frage in enumerate(quiz_data):
             st.info(f"💡 **Erklärung:** {erklaerung}")
             
         # Button zum Zurücksetzen
-        if st.button("Frage zurücksetzen", key=f"reset_{selected_json_file}_{selected_key}_{idx}"):
+        if st.button("Frage zurücksetzen", key=f"reset_{selected_json_file}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
 
