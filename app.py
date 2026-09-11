@@ -51,7 +51,6 @@ for idx, frage in enumerate(quiz_data):
         options = frage.get("optionen", [])
         st.markdown("*Hinweis: Es können eine oder mehrere Antworten richtig sein.*")
         for opt_idx, option in enumerate(options):
-            # Checkboxes erlauben Mehrfachauswahl
             if st.checkbox(option, key=f"chk_{selected_file}_{idx}_{opt_idx}"):
                 user_selected.append(option)
     else:
@@ -63,34 +62,37 @@ for idx, frage in enumerate(quiz_data):
             st.session_state[show_key] = True
             st.rerun()
     else:
-        # Auswertung: Ist die Antwort richtig oder falsch?
         loesung = frage.get("loesung", "")
         erklaerung = frage.get("erklaerung", "")
         
         is_correct = False
         if typ == "multiple_choice":
-            # Prüfen, ob die gewählten Optionen zur Lösung passen
-            # Wir gleichen ab, ob die ausgewählten Begriffe in der Lösung vorkommen
-            if user_selected and all(opt.strip().lower() in loesung.lower() for opt in user_selected):
+            # Ermittle alle Optionen, die laut dem Lösungstext korrekt sind
+            correct_options = [opt for opt in options if opt.strip().lower() in loesung.lower()]
+            
+            # Strenger Vergleich: Die gewählten Optionen müssen exakt den korrekten Optionen entsprechen
+            if correct_options and set(user_selected) == set(correct_options):
                 is_correct = True
-            elif user_selected and any(opt.strip().lower() in loesung.lower() for opt in user_selected) and len(user_selected) == 1:
-                is_correct = True
+            elif not correct_options:
+                # Fallback, falls die Lösung den exakten Text nicht im Options-Array spiegelt
+                if user_selected and all(opt.strip().lower() in loesung.lower() for opt in user_selected):
+                    is_correct = True
         else:
             if isinstance(user_selected, str) and (user_selected.strip().lower() in loesung.lower() or loesung.lower() in user_selected.strip().lower()):
                 is_correct = True
 
-        # Visuelles Feedback (Richtig vs. Falsch mit X)
+        # Visuelles Feedback (Richtig vs. Falsch)
         if is_correct:
             st.success("✅ **Richtig! Sehr gut gemacht.**")
         else:
-            st.error("❌ **Leider falsch!** Schau dir die richtige Lösung und Erklärung unten an.")
+            st.error("❌ **Leider falsch oder unvollständig!**")
 
-        # Offizielle Lösung und Erklärung anzeigen
-        st.info(f"🎯 **Richtige Lösung:** {loesung}")
+        # Offizielle Lösung und Erklärung separat anzeigen, damit es übersichtlich bleibt
+        st.markdown(f"**🎯 Tatsächliche Lösung:** {loesung}")
         if erklaerung:
-            st.markdown(f"💡 **Erklärung:** {erklaerung}")
+            st.info(f"💡 **Erklärung:** {erklaerung}")
             
-        # Button zum Zurücksetzen, falls man es nochmal probieren will
+        # Button zum Zurücksetzen
         if st.button("Frage zurücksetzen", key=f"reset_{selected_file}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
