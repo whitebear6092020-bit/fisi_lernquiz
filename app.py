@@ -1,6 +1,6 @@
 """
 app.py
-FiSi Lern-Generator – Interaktiver Quiz-Player (Datenschutzfreundlich & Ohne PDF-Namen)
+FiSi Lern-Generator – Interaktiver Quiz-Player mit Dropdown & JSON-Dateinamen
 """
 
 import json
@@ -12,7 +12,7 @@ st.set_page_config(page_title="FiSi Quiz-Player", page_icon="🎯", layout="cent
 st.title("🎯 FiSi Prüfungs-Trainer")
 st.caption("Teste dein Wissen – interaktiv und prüfungsrelevant.")
 
-# Fester Name der JSON-Datei, damit keine PDF-Namen verraten werden
+# Fester Name der JSON-Datei
 json_filename = "fisi_uebungsaufgaben.json"
 
 if not os.path.exists(json_filename):
@@ -27,14 +27,16 @@ if not os.path.exists(json_filename):
 with open(json_filename, "r", encoding="utf-8") as f:
     quizzes = json.load(f)
 
-# Alle Fragen aus allen im Hintergrund liegenden Dokumenten zu einem sauberen Paket zusammenfassen,
-# sodass KEINE PDF- oder Word-Namen für den Nutzer sichtbar sind!
-quiz_data = []
-for source_name, questions in quizzes.items():
-    if isinstance(questions, list):
-        quiz_data.extend(questions)
+# Dropdown-Menü beibehalten, aber anstelle des PDF-Namens den JSON-Namen anzeigen!
+quiz_keys = list(quizzes.keys())
 
-st.success(f"📁 **Aktives Lernpaket:** `{json_filename}` ({len(quiz_data)} Fragen geladen)")
+selected_key = st.selectbox(
+    "Wähle ein Lernpaket aus:", 
+    quiz_keys, 
+    format_func=lambda x: f"{json_filename}" if len(quiz_keys) == 1 else f"{json_filename} (Bereich {quiz_keys.index(x) + 1})"
+)
+
+quiz_data = quizzes[selected_key]
 st.divider()
 
 # Quiz-Schleife durchlaufen
@@ -43,7 +45,7 @@ for idx, frage in enumerate(quiz_data):
     st.write(f"**{frage.get('frage', '')}**")
 
     # Zustand für diese spezifische Frage im Session State speichern
-    show_key = f"revealed_{idx}"
+    show_key = f"revealed_{selected_key}_{idx}"
     if show_key not in st.session_state:
         st.session_state[show_key] = False
 
@@ -55,14 +57,14 @@ for idx, frage in enumerate(quiz_data):
         options = frage.get("optionen", [])
         st.markdown("*Hinweis: Es können eine oder mehrere Antworten richtig sein.*")
         for opt_idx, option in enumerate(options):
-            if st.checkbox(option, key=f"chk_{idx}_{opt_idx}"):
+            if st.checkbox(option, key=f"chk_{selected_key}_{idx}_{opt_idx}"):
                 user_selected.append(option)
     else:
-        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{idx}")
+        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_key}_{idx}")
 
     # Button zum Prüfen
     if not st.session_state[show_key]:
-        if st.button("Antwort prüfen", key=f"btn_check_{idx}"):
+        if st.button("Antwort prüfen", key=f"btn_check_{selected_key}_{idx}"):
             st.session_state[show_key] = True
             st.rerun()
     else:
@@ -74,7 +76,7 @@ for idx, frage in enumerate(quiz_data):
             # Ermittle alle Optionen, die laut dem Lösungstext korrekt sind
             correct_options = [opt for opt in options if opt.strip().lower() in loesung.lower()]
             
-            # Strenger, fehlerfreier Mengenabgleich (kein Schummeln bei Multiple-Choice möglich)
+            # Strenger Mengenabgleich (kein Schummeln bei Multiple-Choice)
             if correct_options and set(user_selected) == set(correct_options):
                 is_correct = True
             elif not correct_options:
@@ -96,7 +98,7 @@ for idx, frage in enumerate(quiz_data):
             st.info(f"💡 **Erklärung:** {erklaerung}")
             
         # Button zum Zurücksetzen
-        if st.button("Frage zurücksetzen", key=f"reset_{idx}"):
+        if st.button("Frage zurücksetzen", key=f"reset_{selected_key}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
 
