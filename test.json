@@ -1,0 +1,66 @@
+{
+  "Verhaltensregeln für Mitarbeiter.pdf": [
+    {
+      "frage": "Welche Maßnahme ist notwendig, um sicherzustellen, dass Unbefugte keine Kenntnis über personenbezogene Daten erhalten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Den Bildschirm beim Verlassen des Arbeitsplatzes sperren",
+        "Passwörter direkt am Arbeitsplatz aufbewahren",
+        "Den Aktenschrank am Ende des Arbeitstages verschließen",
+        "Fehlkopien personenbezogener Daten aufbewahren"
+      ],
+      "loesung": "Den Bildschirm beim Verlassen des Arbeitsplatzes sperren, Den Aktenschrank am Ende des Arbeitstages verschließen",
+      "erklaerung": "Die Sperre des Bildschirms und das Verschließen des Aktenschrankes sind wichtige Schritte, um den Datenschutz zu gewährleisten."
+    },
+    {
+      "frage": "Welche der folgenden Handlungen ist nicht zulässig, wenn personenbezogene Daten verarbeitet werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Passwörter auf dem Arbeitsplatz aufbewahren",
+        "personenbezogene Daten ohne gesetzliche Grundlage erheben",
+        "personenbezogene Daten auf dem Server speichern",
+        "Fehlkopien personenbezogener Daten vernichten"
+      ],
+      "loesung": "Passwörter auf dem Arbeitsplatz aufbewahren, personenbezogene Daten ohne gesetzliche Grundlage erheben",
+      "erklaerung": "Die Aufbewahrung von Passwörtern auf dem Arbeitsplatz und die Erhebung personenbezogener Daten ohne gesetzliche Grundlage sind nicht zulässig."
+    },
+    {
+      "frage": "Welche Praxis ist angesichts des Datenschutzes am Arbeitsplatz zu vermeiden?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Passwörter auf dem Arbeitsplatz aufbewahren",
+      "erklaerung": "Die Aufbewahrung von Passwörtern auf dem Arbeitsplatz kann zu einem Sicherheitsrisiko führen und verletzt die Datenschutzregeln."
+    },
+    {
+      "frage": "Welche der folgenden Handlungen ist zulässig, um den Datenschutz zu gewährleisten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "personenbezogene Daten auf dem Desktop speichern",
+        "personenbezogene Daten auf dem Server speichern",
+        "personenbezogene Daten ohne gesetzliche Grundlage erheben",
+        "personenbezogene Daten in CC an mehrere Kunden versenden"
+      ],
+      "loesung": "personenbezogene Daten auf dem Server speichern",
+      "erklaerung": "Die Speicherung von personenbezogenen Daten auf dem Server ist zulässig, während die anderen Optionen verletzen können."
+    },
+    {
+      "frage": "Was ist die korrekte Vorgehensweise, wenn personenbezogene Daten nicht mehr benötigt werden?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Durch einen Aktenvernieter vernichten",
+      "erklaerung": "Personenbezogene Daten sollten durch einen Aktenvernieter vernichtet werden, um sicherzustellen, dass sie nicht weiter verwendet werden können."
+    },
+    {
+      "frage": "Welche der folgenden Praktiken ist nicht zulässig, wenn personenbezogene Daten verarbeitet werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "personenbezogene Daten in CC an mehrere Kunden versenden",
+        "personenbezogene Daten in BCC an mehrere Kunden versenden",
+        "personenbezogene Daten auf dem Server speichern",
+        "personenbezogene Daten ohne gesetzliche Grundlage erheben"
+      ],
+      "loesung": "personenbezogene Daten in CC an mehrere Kunden versenden, personenbezogene Daten ohne gesetzliche Grundlage erheben",
+      "erklaerung": "Die Verwendung von CC bei der Versendung personenbezogener Daten und die Erhebung personenbezogener Daten ohne gesetzliche Grundlage sind nicht zulässig."
+    }
+  ]
+}

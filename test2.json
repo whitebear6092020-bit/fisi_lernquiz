@@ -1,0 +1,172 @@
+{
+  "TOMs_Orientierungshilfe.pdf": [
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 24 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "G",
+      "erklaerung": "Gemäß Art. 24 DSGVO müssen Unternehmen unverzügliche und den gesetzlichen Anforderungen entsprechende Reaktionen auf Verletzungen des Schutzes personenbezogener Daten gewährleisten."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 25 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "M",
+      "erklaerung": "Gemäß Art. 25 DSGVO muss der Schutz von personenbezogenen Daten unter Berücksichtigung des Stands der Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der Verarbeitung, sowie der unterschiedlichen Eintrittswahrscheinlichkeit und Schwere der mit der Verarbeitung verbundenen Risiken für die Rechte und Freiheiten natürlicher Personen bereits bei der Entwicklung, Auswahl von Hardware, Software, sowie Verfahren, entsprechend dem Prinzip des Datenschutzes durch Technikgestaltung und datenschutzfreundliche Voreinstellungen berücksichtigt werden."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 28 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "W",
+      "erklaerung": "Gemäß Art. 28 DSGVO müssen die Mitarbeiter des Auftragnehmers (AV) verpflichtet und verantwortlich gemacht werden, die Vertraulichkeit gemäß Art. 28 (3) lit. b DSGVO zu beachten."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 32 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "L",
+      "erklaerung": "Gemäß Art. 32 DSGVO müssen die an Mitarbeiter ausgegebenen Schlüssel, Zugangskarten oder Codes, sowie im Hinblick auf die Verarbeitung personenbezogener Daten erteilten Berechtigungen, nach deren Ausscheiden aus dem Unternehmen, bzw. dem Wechsel der Zuständigkeiten eingezogen, bzw. entzogen werden."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 32 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "Q",
+      "erklaerung": "Gemäß Art. 32 DSGVO muss die Rechtmäßigkeit der Nutzung von Cloudlösungen geprüft werden."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 32 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "O",
+      "erklaerung": "Gemäß Art. 32 DSGVO müssen technische Maßnahmen zur einfacheren Ausübung des Widerrufrechtes des Betroffenen eingesetzt werden."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 32 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "N",
+      "erklaerung": "Gemäß Art. 32 DSGVO muss eine Alarmanlage eingesetzt werden, um die Sicherheit des Unternehmens zu erhöhen."
+    },
+    {
+      "frage": "Welche der folgenden Maßnahmen sind gemäß Art. 32 DSGVO verpflichtend, wenn sie nicht bereits durch ein Datenschutzkonzept abgedeckt sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "loesung": "L",
+      "erklaerung": "Gemäß Art. 32 DSGVO müssen Fenstersicherungen und die Absicherung von Gebäudeschächten durchgeführt werden, um die Sicherheit von personenbezogenen Daten zu erhöhen."
+    }
+  ]
+}
