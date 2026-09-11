@@ -1,8 +1,9 @@
 """
 app.py
-FiSi Lern-Generator – Interaktiver Quiz-Player mit Dropdown & JSON-Dateinamen
+FiSi Prüfungs-Trainer – Automatische Erkennung aller JSON-Dateien
 """
 
+import glob
 import json
 import os
 import streamlit as st
@@ -12,28 +13,30 @@ st.set_page_config(page_title="FiSi Quiz-Player", page_icon="🎯", layout="cent
 st.title("🎯 FiSi Prüfungs-Trainer")
 st.caption("Teste dein Wissen – interaktiv und prüfungsrelevant.")
 
-# Fester Name der JSON-Datei
-json_filename = "fisi_uebungsaufgaben.json"
+# Automatisch nach allen .json-Dateien im Projektordner suchen
+json_files = glob.glob("*.json")
 
-if not os.path.exists(json_filename):
-    st.error(f"❌ Die Datei `{json_filename}` wurde im Projektordner nicht gefunden!")
+if not json_files:
+    st.error("❌ Keine JSON-Quiz-Dateien im Projektordner gefunden!")
     st.info(
-        "**So geht's:** Stelle sicher, dass die `fisi_uebungsaufgaben.json` "
-        "im selben Ordner liegt (oder auf GitHub hochgeladen wurde)."
+        "**So geht's:** Lade mindestens eine `.json`-Datei mit Übungsaufgaben "
+        "in den Ordner (oder auf GitHub hoch)."
     )
     st.stop()
 
-# JSON-Daten laden
-with open(json_filename, "r", encoding="utf-8") as f:
+# Wenn mehrere JSON-Dateien da sind, kann der Nutzer wählen, welche er öffnen möchte
+selected_json_file = st.selectbox("📂 Wähle eine JSON-Datei aus:", json_files)
+
+# Die ausgewählte JSON-Datei dynamisch laden
+with open(selected_json_file, "r", encoding="utf-8") as f:
     quizzes = json.load(f)
 
-# Dropdown-Menü beibehalten, aber anstelle des PDF-Namens den JSON-Namen anzeigen!
+# Falls das JSON verschachtelt ist (z.B. nach Themen/Bereichen unterteilt)
 quiz_keys = list(quizzes.keys())
-
 selected_key = st.selectbox(
-    "Wähle ein Lernpaket aus:", 
-    quiz_keys, 
-    format_func=lambda x: f"{json_filename}" if len(quiz_keys) == 1 else f"{json_filename} (Bereich {quiz_keys.index(x) + 1})"
+    "Wähle einen Bereich aus:", 
+    quiz_keys,
+    format_func=lambda x: f"{x}"
 )
 
 quiz_data = quizzes[selected_key]
@@ -45,7 +48,7 @@ for idx, frage in enumerate(quiz_data):
     st.write(f"**{frage.get('frage', '')}**")
 
     # Zustand für diese spezifische Frage im Session State speichern
-    show_key = f"revealed_{selected_key}_{idx}"
+    show_key = f"revealed_{selected_json_file}_{selected_key}_{idx}"
     if show_key not in st.session_state:
         st.session_state[show_key] = False
 
@@ -57,14 +60,14 @@ for idx, frage in enumerate(quiz_data):
         options = frage.get("optionen", [])
         st.markdown("*Hinweis: Es können eine oder mehrere Antworten richtig sein.*")
         for opt_idx, option in enumerate(options):
-            if st.checkbox(option, key=f"chk_{selected_key}_{idx}_{opt_idx}"):
+            if st.checkbox(option, key=f"chk_{selected_json_file}_{selected_key}_{idx}_{opt_idx}"):
                 user_selected.append(option)
     else:
-        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_key}_{idx}")
+        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_json_file}_{selected_key}_{idx}")
 
     # Button zum Prüfen
     if not st.session_state[show_key]:
-        if st.button("Antwort prüfen", key=f"btn_check_{selected_key}_{idx}"):
+        if st.button("Antwort prüfen", key=f"btn_check_{selected_json_file}_{selected_key}_{idx}"):
             st.session_state[show_key] = True
             st.rerun()
     else:
@@ -73,10 +76,9 @@ for idx, frage in enumerate(quiz_data):
         
         is_correct = False
         if typ == "multiple_choice":
-            # Ermittle alle Optionen, die laut dem Lösungstext korrekt sind
             correct_options = [opt for opt in options if opt.strip().lower() in loesung.lower()]
             
-            # Strenger Mengenabgleich (kein Schummeln bei Multiple-Choice)
+            # Strenger Mengenabgleich für Multiple-Choice
             if correct_options and set(user_selected) == set(correct_options):
                 is_correct = True
             elif not correct_options:
@@ -86,7 +88,7 @@ for idx, frage in enumerate(quiz_data):
             if isinstance(user_selected, str) and (user_selected.strip().lower() in loesung.lower() or loesung.lower() in user_selected.strip().lower()):
                 is_correct = True
 
-        # Visuelles Feedback (Richtig vs. Falsch)
+        # Visuelles Feedback
         if is_correct:
             st.success("✅ **Richtig! Sehr gut gemacht.**")
         else:
@@ -98,7 +100,7 @@ for idx, frage in enumerate(quiz_data):
             st.info(f"💡 **Erklärung:** {erklaerung}")
             
         # Button zum Zurücksetzen
-        if st.button("Frage zurücksetzen", key=f"reset_{selected_key}_{idx}"):
+        if st.button("Frage zurücksetzen", key=f"reset_{selected_json_file}_{selected_key}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
 
