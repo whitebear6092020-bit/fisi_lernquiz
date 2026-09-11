@@ -1,9 +1,6 @@
 """
-play_quiz.py
-Eigenständiger Quiz-Player für Kollegen.
-Benötigt kein Ollama und keine Extraktoren – nur Python, Streamlit und eine JSON-Datei.
-
-Start in PyCharm-Terminal: streamlit run play_quiz.py
+app.py
+FiSi Lern-Generator – Interaktiver Quiz-Player
 """
 
 import json
@@ -12,8 +9,8 @@ import streamlit as st
 
 st.set_page_config(page_title="FiSi Quiz-Player", page_icon="🎯", layout="centered")
 
-st.title("🎯 FiSi Prüfungs-Trainer (Offline-Modus)")
-st.caption("Teste dein Wissen – komplett lokal, ohne KI-Abhängigkeit.")
+st.title("🎯 FiSi Prüfungs-Trainer")
+st.caption("Teste dein Wissen – interaktiv und prüfungsrelevant.")
 
 # Nach der JSON-Datei im Projektordner suchen
 json_filename = "fisi_uebungsaufgaben.json"
@@ -21,8 +18,8 @@ json_filename = "fisi_uebungsaufgaben.json"
 if not os.path.exists(json_filename):
     st.error(f"❌ Die Datei `{json_filename}` wurde im Projektordner nicht gefunden!")
     st.info(
-        "**So geht's:** Kopiere die von deinem Teamkollegen generierte `fisi_uebungsaufgaben.json` "
-        "einfach direkt in diesen Projektordner und lade die Seite neu."
+        "**So geht's:** Stelle sicher, dass die `fisi_uebungsaufgaben.json` "
+        "im selben Ordner liegt (oder auf GitHub hochgeladen wurde)."
     )
     st.stop()
 
@@ -47,44 +44,55 @@ for idx, frage in enumerate(quiz_data):
         st.session_state[show_key] = False
 
     typ = frage.get("typ", "offen")
-    user_choice = None
+    user_selected = []
 
-    # Antwortmöglichkeiten darstellen (ohne Lösung zu verraten)
+    # Antwortmöglichkeiten darstellen
     if typ == "multiple_choice":
         options = frage.get("optionen", [])
-        user_choice = st.radio(
-            "Wähle deine Antwort:",
-            options,
-            key=f"choice_{selected_file}_{idx}",
-            index=None  # Verhindert, dass automatisch die erste Option ausgewählt ist
-        )
+        st.markdown("*Hinweis: Es können eine oder mehrere Antworten richtig sein.*")
+        for opt_idx, option in enumerate(options):
+            # Checkboxes erlauben Mehrfachauswahl
+            if st.checkbox(option, key=f"chk_{selected_file}_{idx}_{opt_idx}"):
+                user_selected.append(option)
     else:
-        user_choice = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_file}_{idx}")
+        user_selected = st.text_input("Deine Antwort eingeben:", key=f"choice_{selected_file}_{idx}")
 
     # Button zum Prüfen
-    col1, col2 = st.columns([1, 4])
-    with col1:
-        if not st.session_state[show_key]:
-            if st.button("Antwort prüfen", key=f"btn_check_{selected_file}_{idx}"):
-                st.session_state[show_key] = True
-                st.rerun()
-        else:
-            st.write("✅ *Ausgewertet*")
-
-    # Lösung und Erklärung erst anzeigen, nachdem der Button gedrückt wurde
-    if st.session_state[show_key]:
-        richtige_loesung = frage.get("loesung", "")
+    if not st.session_state[show_key]:
+        if st.button("Antwort prüfen", key=f"btn_check_{selected_file}_{idx}"):
+            st.session_state[show_key] = True
+            st.rerun()
+    else:
+        # Auswertung: Ist die Antwort richtig oder falsch?
+        loesung = frage.get("loesung", "")
         erklaerung = frage.get("erklaerung", "")
+        
+        is_correct = False
+        if typ == "multiple_choice":
+            # Prüfen, ob die gewählten Optionen zur Lösung passen
+            # Wir gleichen ab, ob die ausgewählten Begriffe in der Lösung vorkommen
+            if user_selected and all(opt.strip().lower() in loesung.lower() for opt in user_selected):
+                is_correct = True
+            elif user_selected and any(opt.strip().lower() in loesung.lower() for opt in user_selected) and len(user_selected) == 1:
+                is_correct = True
+        else:
+            if isinstance(user_selected, str) and (user_selected.strip().lower() in loesung.lower() or loesung.lower() in user_selected.strip().lower()):
+                is_correct = True
 
-        st.success(f"🎯 **Richtige Lösung:** {richtige_loesung}")
+        # Visuelles Feedback (Richtig vs. Falsch mit X)
+        if is_correct:
+            st.success("✅ **Richtig! Sehr gut gemacht.**")
+        else:
+            st.error("❌ **Leider falsch!** Schau dir die richtige Lösung und Erklärung unten an.")
+
+        # Offizielle Lösung und Erklärung anzeigen
+        st.info(f"🎯 **Richtige Lösung:** {loesung}")
         if erklaerung:
-            st.info(f"💡 **Erklärung:** {erklaerung}")
-
-        # Optional: Reset-Button, falls man die Frage nochmal probieren will
+            st.markdown(f"💡 **Erklärung:** {erklaerung}")
+            
+        # Button zum Zurücksetzen, falls man es nochmal probieren will
         if st.button("Frage zurücksetzen", key=f"reset_{selected_file}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
 
     st.markdown("---")
-
-st.caption("Tipp: Du kannst die `fisi_uebungsaufgaben.json` jederzeit austauschen, um andere Themen zu lernen.")
