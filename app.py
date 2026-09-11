@@ -1,6 +1,6 @@
 """
 app.py
-FiSi Prüfungs-Trainer – Ignoriert PDF-Namen und nutzt nur die JSON-Dateien
+FiSi Prüfungs-Trainer – Zeigt Lösungen erst bei korrekter Antwort
 """
 
 import glob
@@ -24,15 +24,14 @@ if not json_files:
     )
     st.stop()
 
-# Dropdown zeigt NUR den Namen der JSON-Datei (keine PDFs!)
+# Dropdown zeigt den Namen der JSON-Datei
 selected_json_file = st.selectbox("📂 Wähle ein Lernpaket aus:", json_files)
 
 # Die JSON-Datei laden
 with open(selected_json_file, "r", encoding="utf-8") as f:
     quizzes = json.load(f)
 
-# Alle Fragen aus der JSON-Datei in einen gemeinsamen Topf werfen, 
-# damit interne Dateinamen (PDFs) komplett verschwinden und ignoriert werden!
+# Alle Fragen aus der JSON-Datei extrahieren
 quiz_data = []
 if isinstance(quizzes, dict):
     for key, value in quizzes.items():
@@ -86,7 +85,7 @@ for idx, frage in enumerate(quiz_data):
         if typ == "multiple_choice":
             correct_options = [opt for opt in options if opt.strip().lower() in loesung.lower()]
             
-            # Strenger Mengenabgleich (erst wenn alles exakt stimmt, ist es richtig)
+            # Strenger Mengenabgleich
             if correct_options and set(user_selected) == set(correct_options):
                 is_correct = True
             elif not correct_options:
@@ -96,19 +95,19 @@ for idx, frage in enumerate(quiz_data):
             if isinstance(user_selected, str) and (user_selected.strip().lower() in loesung.lower() or loesung.lower() in user_selected.strip().lower()):
                 is_correct = True
 
-        # Visuelles Feedback (Richtig vs. Falsch)
+        # Visuelles Feedback & Bedingung für die Lösungsanzeige
         if is_correct:
             st.success("✅ **Richtig! Sehr gut gemacht.**")
+            # Lösung und Erklärung werden NUR bei richtiger Antwort angezeigt!
+            st.markdown(f"**🎯 Tatsächliche Lösung:** {loesung}")
+            if erklaerung:
+                st.info(f"💡 **Erklärung:** {erklaerung}")
         else:
-            st.error("❌ **Leider falsch oder unvollständig!**")
+            st.error("❌ **Leider falsch oder unvollständig!** Schade, versuche es noch einmal.")
+            # Hier wird absichtlich KEINE Lösung angezeigt, damit man weiternageln / neu versuchen kann!
 
-        # Offizielle Lösung und Erklärung anzeigen
-        st.markdown(f"**🎯 Tatsächliche Lösung:** {loesung}")
-        if erklaerung:
-            st.info(f"💡 **Erklärung:** {erklaerung}")
-            
-        # Button zum Zurücksetzen
-        if st.button("Frage zurücksetzen", key=f"reset_{selected_json_file}_{idx}"):
+        # Button zum Zurücksetzen / Erneut versuchen
+        if st.button("Frage zurücksetzen / Nochmal versuchen", key=f"reset_{selected_json_file}_{idx}"):
             st.session_state[show_key] = False
             st.rerun()
 
