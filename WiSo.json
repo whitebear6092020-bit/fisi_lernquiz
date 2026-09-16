@@ -47,13 +47,6 @@
       "erklaerung": "Diese Frage prüft, ob der Fachkunde die wichtigsten Punkte der Entscheidung versteht."
     },
     {
-      "frage": "Was ist der Hauptgrund, warum das Monitoring vorerst nicht freigeschaltet werden kann?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Weil wesentliche organisatorische und rechtliche Rahmenbedingungen noch ungeklärt sind.",
-      "erklaerung": "Dies prüft die Verständnisfähigkeit der Entscheidungsgründe."
-    },
-    {
       "frage": "Welche Maßnahmen sollten nach der Freischaltung des Monitoring eingeleitet werden, gemäß der Entscheidung als IT-Fachkraft?",
       "typ": "multiple_choice",
       "optionen": [
@@ -90,13 +83,6 @@
       ],
       "loesung": "Datenschutzbeauftragte",
       "erklaerung": "Es wird hier auf die Beteiligung der Datenschutzbeauftragten hingewiesen, die in den Prüfpunkten eine wichtige Rolle spielen."
-    },
-    {
-      "frage": "Was ist der Vorschlag für den Ticketkommentar, der in den Prüfpunkten 1 und 2 erwähnt wird?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Rollout vorerst gestoppt, da Zweck/Rechtsgrundlage, Datenumfang, Löschfristen und Zugriffsrechte des Monitorings noch ungeklärt sind. Bitte Datenschutzbeauftragte:n und die zuständige Ansprechperson beim Kunden einbinden und vor der Produktivschaltung insbesondere die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept prüfen.",
-      "erklaerung": "Dies prüft die Verständnisfähigkeit des Vorschlags für den Ticketkommentar."
     },
     {
       "frage": "Welche Punkte sollten nach der Freischaltung des Monitoring geprüft werden, um die Privatsphäre der Beschäftigten zu schützen?",
@@ -175,20 +161,6 @@
       "erklaerung": "Die Datenschutzbeauftragte:n und die zuständige Ansprechperson sollten einbezogen werden, um die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept zu prüfen."
     },
     {
-      "frage": "Was ist der Hauptgrund, warum das Monitoring vorerst gestoppt wurde?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Weil die Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte noch nicht geklärt sind.",
-      "erklaerung": "Die Freischaltung des Monitoring kann nur erfolgen, wenn alle Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte geklärt sind."
-    },
-    {
-      "frage": "Welche Punkte müssen noch klargestellt werden, bevor das Monitoring starten kann?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Zweck und Rechtsgrundlage des Monitorings, Datenerfassung und deren Erforderlichkeit, Konkrete Löschfristen für die erhobenen Daten, Zugriff auf die Monitoring-Daten, Beteiligungsrechte einer Arbeitnehmervertretung.",
-      "erklaerung": "Alle genannten Punkte müssen geklärt sein, bevor das Monitoring starten kann."
-    },
-    {
       "frage": "Was ist die Bedeutung der Bildschirmaufnahmen im Zusammenhang mit dem Monitoring?",
       "typ": "multiple_choice",
       "optionen": [
@@ -199,13 +171,6 @@
       ],
       "loesung": "Sie können optional sein, je nach Rechtsgrundlage",
       "erklaerung": "Die Erforderlichkeit der Bildschirmaufnahmen muss auf Rechtsgrundlage geprüft werden."
-    },
-    {
-      "frage": "Welche Rolle hat die Datenschutzbeauftragte:n im Kontext des Monitoring-Prozesses?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Die Datenschutzbeauftragte:n sollten die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept prüfen.",
-      "erklaerung": "Die Datenschutzbeauftragte:n haben eine wichtige Rolle bei der Prüfung der Erforderlichkeit der Bildschirmaufnahmen und dem Lösch- und Berechtigungskonzept."
     },
     {
       "frage": "Was ist die Bedeutung der Löschfristen für die Monitoring-Daten?",
@@ -329,15 +294,6 @@
       "loesung": "Zweck und Rechtsgrundlage des Monitorings",
       "erklaerung": "Zweck und Rechtsgrundlage des Monitorings sind noch nicht geklärt."
     },
-    {
-      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Datenumfang, insbesondere Bildschirmaufnahmen",
-      "erklaerung": "Der Datenumfang, insbesondere die Bildschirmaufnahmen, müssen auf Erforderlichkeit geprüft werden."
-    }
-  ],
-  "Bild (1).png": [
     {
       "frage": "Welche der folgenden Komponenten ist nicht Teil der Systemintegration?",
       "typ": "multiple_choice",
@@ -569,15 +525,6 @@
       "erklaerung": "Loadbalancing ist ein Konzept, bei dem der Netzwerkverkehr auf mehrere Server aufgeteilt wird, um den Lastdruck zu reduzieren."
     },
     {
-      "frage": "Welche der folgenden Sicherheitsmaßnahmen ist am effektivsten, um unbefugten Zugriff auf ein System zu verhindern?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Passwortmanagement",
-      "erklaerung": "Passwortmanagement hilft, schwache Passwörter zu vermeiden und die Authentifizierung sicherer zu gestalten."
-    }
-  ],
-  "Bild.png": [
-    {
       "frage": "Welche der folgenden Komponenten sind typischerweise in einem Systemintegrationsszenario zu finden?",
       "typ": "multiple_choice",
       "optionen": [
@@ -685,15 +632,6 @@
       "loesung": "Star, Ring",
       "erklaerung": "Star und Ring sind in der Systemintegration relevant, während Bus eher im Bereich der Hardware zu finden ist."
     },
-    {
-      "frage": "Welche der folgenden Aufgaben gehört in den Bereich der Systemintegration?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Die Integration von verschiedenen Softwarekomponenten in einheitliche Systeme, die Optimierung von Netzwerkverbindungen, das Einrichten von Sicherheitsmaßnahmen.",
-      "erklaerung": "Diese Aufgaben sind typisch für die Systemintegration."
-    }
-  ],
-  "01_Angebot_und_Nachfrage_geloest.pdf": [
     {
       "frage": "Welchen Preis bewirkt einen Nachfrageüberhang bei der Nachfrage nach Digitalkameras?",
       "typ": "multiple_choice",
@@ -803,15 +741,6 @@
       "erklaerung": "Hier ist die angebotene Menge größer als die nachgefragte Menge."
     },
     {
-      "frage": "Was ist der Preis, an dem die Nachfrage und der Angebot erreichen Gleichgewicht?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "220,00 €",
-      "erklaerung": "Hier ist die nachgefragte Menge gleich der angebotenen Menge."
-    }
-  ],
-  "02_Problematik_Butterberg_und_Milchsee_geloest.pdf": [
-    {
       "frage": "Welcher Marktprozess tritt auf, wenn der Mindestpreis für Milch künstlich hoch gehalten wird und mehr Milch angeboten wird, als der Markt nachfragt?",
       "typ": "multiple_choice",
       "optionen": [
@@ -920,15 +849,6 @@
       "erklaerung": "Mindestpreise über dem Gleichgewichtspreis führen zu einem Angebot, das größer ist als die Nachfrage, was zu einem Angebotsüberhang führt."
     },
     {
-      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Subventionen auf die Nachfrage und den Marktpreis betrifft?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Subventionen reduzieren die Produktionskosten, was die Nachfrage steigert und den Marktpreis senkt, während die Menge steigt.",
-      "erklaerung": "Subventionen beeinflussen die Nachfrage und den Marktpreis, indem sie die Produktionskosten senken, was die Nachfrage steigert und den Marktpreis senkt."
-    }
-  ],
-  "03_Erarbeitung_Marktformen_geloest.pdf": [
-    {
       "frage": "Welche Marktform tritt auf, wenn es viele Anbieter und wenige Nachfrager gibt?",
       "typ": "multiple_choice",
       "optionen": [
@@ -1027,15 +947,6 @@
       "loesung": "Angebotsoligopol",
       "erklaerung": "Hier haben wenige Nachfrager mehr Marktmacht."
     },
-    {
-      "frage": "Wie beeinflusst die Anzahl der Marktteilnehmer die Marktmacht in den Marktformen?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Je weniger Marktteilnehmer auf einer Seite stehen (und je größer damit ihr einzelner Marktanteil ist), desto eher können sie Preis und Menge zu ihren Gunsten beeinflussen.",
-      "erklaerung": "Diese Erklärung ist direkt aus dem Lernmaterial entnommen."
-    }
-  ],
-  "01_Erarbeitung Marktformen 1.pdf": [
     {
       "frage": "Welche Marktform tritt auf, wenn viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten?",
       "typ": "multiple_choice",
