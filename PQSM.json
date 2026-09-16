@@ -1,233 +1,194 @@
 [
   {
-    "frage": "Was ist das Hauptmerkmal eines IT-Projekts im Vergleich zu anderen Projekten?",
+    "frage": "Was ist ein Projektmanagement in der IT-Zusammenfassung?",
     "typ": "multiple_choice",
     "optionen": [
-      "A) Es hat einen festen Zeitplan.",
-      "B) Es ist ein einziges, eindeutiges Vorhaben.",
-      "C) Es erfordert weniger Ressourcen.",
-      "D) Es ist weniger komplex."
+      "Eine Mischung aus klassischem Projektmanagement und IT-Spezifika",
+      "Eine rein technische Tätigkeit",
+      "Ein Prozess, der ausschließlich auf Zeitmanagement fokussiert ist"
     ],
-    "loesung": "B) Es ist ein einziges, eindeutiges Vorhaben.",
-    "erklaerung": "IT-Projekte sind einzigartig und haben einen festen Zeitplan, was sie von anderen Projekten unterscheidet, die möglicherweise wiederholt werden können."
+    "loesung": "Eine Mischung aus klassischem Projektmanagement und IT-Spezifika",
+    "erklaerung": "Projektmanagement in der IT umfasst spezielle Herausforderungen wie hohe Komplexität, sich ändernde Anforderungen und technologische Dynamik."
   },
   {
-    "frage": "Welche der folgenden Punkte ist ein IT-Projekt nicht unbedingt charakteristisch?",
+    "frage": "Warum sind IT-Projekte anders als Bauprojekte?",
     "typ": "multiple_choice",
     "optionen": [
-      "A) Festes Budget",
-      "B) Festes Ziel",
-      "C) Komplexe Anforderungen",
-      "D) Unsichtbare Arbeit"
+      "Weil sie weniger transparent sind",
+      "Weil sie nie fertig werden",
+      "Weil sie nur in Code bestehen",
+      "Weil sie nicht dynamisch sind"
     ],
-    "loesung": "A) Festes Budget",
-    "erklaerung": "IT-Projekte haben oft ein festeres Ziel und komplexe Anforderungen, aber das Budget ist nicht immer so fest wie angenommen."
+    "loesung": "Weil sie weniger transparent sind, weil sie nie fertig werden, weil sie dynamische, vernetzte, unsichtbare Systeme sind",
+    "erklaerung": "IT-Projekte sind lebende Systeme, die sich während der Umsetzung ständig verändern und sind daher nicht nur in Code, sondern in vielen anderen Aspekten komplex."
   },
   {
-    "frage": "Was ist ein Definition of Done (DoD) in einem IT-Projekt?",
-    "typ": "offen",
-    "loesung": "Ein Definition of Done ist eine Liste von Kriterien, die erfüllt sein müssen, bevor ein Feature oder eine Funktion als abgeschlossen angesehen wird.",
-    "erklaerung": "Es ist eine wichtige Methode, um die Komplettierung von Arbeit zu definieren und zu kontrollieren.",
-    "optionen": []
-  },
-  {
-    "frage": "Welche der folgenden ist ein Risiko in einem IT-Projekt?",
+    "frage": "Welche der folgenden IT-Projekte ist ein Beispiel für ein Infrastrukturprojekt/Softwareentwicklung?",
     "typ": "multiple_choice",
     "optionen": [
-      "A) Veränderungen in den Anforderungen",
-      "B) Festes Budget",
-      "C) Eindeutige Zieldefinition",
-      "D) Festes Team"
+      "Rechenzentrums-Umzug",
+      "System-Migration",
+      "Einführung einer neuen Software",
+      "Aufbau einer virtuellen Infrastruktur"
     ],
-    "loesung": "A) Veränderungen in den Anforderungen",
-    "erklaerung": "Veränderungen in den Anforderungen sind ein häufiges und schwieriges Risiko in IT-Projekten."
+    "loesung": "Aufbau einer virtuellen Infrastruktur",
+    "erklaerung": "Ein Infrastrukturprojekt/Softwareentwicklung umfasst den Aufbau einer virtuellen Infrastruktur, Einrichtung eines Multi-Container-Setups oder Entwicklung eines Wordpress-Plugins."
   },
   {
-    "frage": "Was ist das Hauptziel eines Zielgesprächs in einem IT-Projekt?",
-    "typ": "offen",
-    "loesung": "Das Hauptziel ist Klarheit schaffen und Erwartungen managen.",
-    "erklaerung": "Es ist ein wichtiger Schritt, um die Erwartungen der Stakeholder zu klären und zu managen.",
-    "optionen": []
-  },
-  {
-    "frage": "Welche der folgenden ist nicht ein typisches IT-Projekt?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "A) Rechenzentrums-Umzug",
-      "B) System-Migration",
-      "C) Einführung einer neuen Software",
-      "D) Bau eines Wohnblocks"
-    ],
-    "loesung": "D) Bau eines Wohnblocks",
-    "erklaerung": "Bau eines Wohnblocks ist kein IT-Projekt, sondern ein Bauprojekt."
-  },
-  {
-    "frage": "Welche der folgenden Punkte ist ein IT-Projekt nicht unbedingt charakteristisch?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "A) Festes Ziel",
-      "B) Komplexe Anforderungen",
-      "C) Unsichtbare Arbeit",
-      "D) Festes Budget"
-    ],
-    "loesung": "D) Festes Budget",
-    "erklaerung": "IT-Projekte haben oft ein festeres Ziel und komplexe Anforderungen, aber das Budget ist nicht immer so fest wie angenommen."
-  },
-  {
-    "frage": "Was ist ein Hauptunterschied zwischen IT-Projekten und anderen Projekten in Bezug auf die Abhängigkeiten?",
-    "typ": "offen",
-    "loesung": "IT-Projekte haben oft hohe Abhängigkeiten zu Hardware, Netzwerke, Virtualisierung, Software, was sie von anderen Projekten unterscheidet.",
-    "erklaerung": "Diese Abhängigkeiten können komplex und dynamisch sein, was IT-Projekte zu einem besonderen Management erfordert.",
-    "optionen": []
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Unterschiede zwischen interne und externen Projekten?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Interne Projekte haben keine formale Vertragsbindung.",
-      "Externe Projekte haben keine formale Vertragsbindung.",
-      "Interne Projekte haben keine wirtschaftlichen Auswirkungen im Unternehmen.",
-      "Externe Projekte haben keine organisatorischen Auswirkungen bei Projektverzug oder -scheitern."
-    ],
-    "loesung": "Interne Projekte haben keine formale Vertragsbindung.",
-    "erklaerung": "Interne Projekte haben keine formale Vertragsbindung, während externe Projekte solche haben."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich des Lastenhefts?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Das Lastenheft beschreibt das Wie und Womit der Umsetzung.",
-      "Das Lastenheft dient als Vertragsgrundlage und ist rechtlich bindend.",
-      "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts.",
-      "Das Lastenheft ist nicht notwendig in internen Projekten."
-    ],
-    "loesung": "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts.",
-    "erklaerung": "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts, während es nicht immer rechtlich bindend ist und nicht immer notwendig ist in internen Projekten."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich des Pflichtenhefts?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Das Pflichtenheft beschreibt das Was und Warum des Projekts.",
-      "Das Pflichtenheft ist nicht rechtlich bindend.",
-      "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
-      "Das Pflichtenheft ist nur in externen Projekten erforderlich."
-    ],
-    "loesung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
-    "erklaerung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen, während es rechtlich bindend ist und in internen und externen Projekten verwendet werden kann."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Lastenhefts?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Das Lastenheft sollte nur funktionalen Anforderungen widmen.",
-      "Das Lastenheft sollte nicht SMART-Ziele enthalten.",
-      "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein.",
-      "Das Lastenheft sollte keine technischen Anforderungen enthalten."
-    ],
-    "loesung": "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein.",
-    "erklaerung": "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein, um klare Erwartungen zu setzen."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Rechtsfolgen des Lastenhefts?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Das Lastenheft hat keine rechtliche Bedeutung.",
-      "Das Lastenheft kann als Vertragsgrundlage dienen.",
-      "Das Lastenheft ist nur ein Informationsdokument.",
-      "Das Lastenheft hat keine Auswirkungen auf die Projektabnahme."
-    ],
-    "loesung": "Das Lastenheft kann als Vertragsgrundlage dienen.",
-    "erklaerung": "Das Lastenheft kann als Vertragsgrundlage dienen, wenn es explizit im Vertrag erwähnt oder angehängt wird."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Pflichtenhefte?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Das Pflichtenheft beschreibt das Was und Warum des Projekts.",
-      "Das Pflichtenheft ist nicht rechtlich bindend.",
-      "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
-      "Das Pflichtenheft ist nur in externen Projekten erforderlich."
-    ],
-    "loesung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
-    "erklaerung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen, während es rechtlich bindend ist und in internen und externen Projekten verwendet werden kann."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Lastenhefts?",
+    "frage": "Was ist ein 'Definition of Done' (DoD) in der Projektplanung?",
     "typ": "offen",
     "optionen": [],
-    "loesung": "Das Lastenheft sollte die Anforderungen und Ziele des Projekts spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein, um eine klare Kommunikation zwischen Auftraggeber und Auftragnehmer sicherzustellen.",
-    "erklaerung": "Die SMART-Ziele sind ein wichtiges Instrument zur Verifikation der Ziele des Projekts und helfen, die Erwartungen der Stakeholder zu formalisieren."
+    "loesung": "Eine Definition of Done (DoD) ist eine Kriterienliste, die definiert, wann ein Teil des Projekts oder ein Feature als fertig betrachtet wird.",
+    "erklaerung": "DoD ist ein wichtiges Instrument, um die Abgeschlossenheit von Arbeitseinsätzen in einem Projekt zu definieren."
   },
   {
-    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Pflichtenhefts?",
-    "typ": "offen",
-    "optionen": [],
-    "loesung": "Das Pflichtenheft sollte technische Umsetzungsanweisungen enthalten, um die Umsetzung der Anforderungen des Lastenhefts zu garantieren. Es sollte spezifisch auf die Umsetzung des Projekts abzielen und rechtlich bindend sein.",
-    "erklaerung": "Das Pflichtenheft ist ein technisches Dokument, das die spezifischen Umsetzungsanweisungen für das Projekt enthält und rechtlich bindend ist, wenn von beiden Seiten akzeptiert."
-  },
-  {
-    "frage": "Welche der folgenden Phasen gehört nicht zum Vom IT-Projekt in den IT-Betrieb?",
+    "frage": "Welche der folgenden Aspekte ist in einem Zielgespräch wichtig, um Erwartungen zu managen?",
     "typ": "multiple_choice",
     "optionen": [
-      "Local DEV-System",
-      "System-Test",
-      "Staging",
-      "Change-Request"
+      "Risiken & Stolpersteine",
+      "Erwartungen klären",
+      "Ressourcen",
+      "Kommunikation & Reporting"
     ],
-    "loesung": "Change-Request",
-    "erklaerung": "Change-Request ist ein Verwaltungsprozess und gehört nicht zur Übergabephase."
+    "loesung": "Risiken & Stolpersteine, Erwartungen klären, Kommunikation & Reporting",
+    "erklaerung": "In einem Zielgespräch sind Risiken, Erwartungen und Kommunikation wichtige Elemente, um Erwartungen zu managen."
   },
   {
-    "frage": "Welcher Prozess ist laut ITIL nicht definiert?",
+    "frage": "Was ist der Hauptunterschied zwischen einem Forschungs- und Entwicklungsvorhaben und einem Planungsprojekt?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Unsicherheit und Viele Iterationen",
+      "Klarer Scope und starke Abhängigkeit vom Informationsstand",
+      "Höhere Erwartungen",
+      "Hohe Technik"
+    ],
+    "loesung": "Unsicherheit und Viele Iterationen",
+    "erklaerung": "Forschungs- und Entwicklungsvorhaben sind charakterisiert durch hohe Unsicherheit und viele Iterationen, während Planungsprojekte einen klareren Scope haben."
+  },
+  {
+    "frage": "Welche der folgenden Punkte ist ein Beispiel für eine 'Unsichtbare Arbeit' in einem IT-Projekt?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Rechenzentrums-Umzug",
+      "System-Migration",
+      "Datenmodelle",
+      "Einführung einer neuen Software"
+    ],
+    "loesung": "Datenmodelle",
+    "erklaerung": "Datenmodelle sind oft nicht direkt sichtbar, aber essentiell für die Umsetzung und Steuerung von IT-Projekten."
+  },
+  {
+    "frage": "Was ist ein 'Scope & Nicht-Scope' in einem IT-Projekt?",
+    "typ": "offen",
+    "optionen": [],
+    "loesung": "Scope & Nicht-Scope definiert, was in einem IT-Projekt enthalten ist und was nicht, um Klarheit über die Grenzen des Projekts zu schaffen.",
+    "erklaerung": "Scope & Nicht-Scope ist ein wichtiger Bestandteil der Projektplanung, um die Tätigkeiten und deren Grenzen klar zu definieren."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Unterschied zwischen Lastenheft und Pflichtenheft?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Lastenheft beschreibt das Wie und Womit.",
+      "Das Pflichtenheft ist vom Auftraggeber erstellt.",
+      "Das Lastenheft ist eine rechtliche Vertragsgrundlage.",
+      "Das Pflichtenheft beschreibt das Was & Warum."
+    ],
+    "loesung": "Das Pflichtenheft beschreibt das Wie und Womit (Umsetzung).",
+    "erklaerung": "Das Pflichtenheft beschreibt die technische Umsetzung, während das Lastenheft das Was & Warum definiert."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Aufbau eines Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es beginnt immer mit der Anforderungspriorisierung.",
+      "Es beschreibt nur die technischen Anforderungen.",
+      "Es enthält die technische Umsetzung.",
+      "Es beginnt mit der Analyse der Ausgangssituation."
+    ],
+    "loesung": "Es beginnt mit der Analyse der Ausgangssituation.",
+    "erklaerung": "Das Lastenheft beginnt mit der Analyse der Ausgangssituation, um den Kontext des Projekts zu verstehen."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf die Rechtschaffenheit eines Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es ist immer rechtlich verbindlich.",
+      "Es dient nur als Kommunikationsgrundlage zwischen Auftraggeber und Auftragnehmer.",
+      "Es kann rechtlich verbindlich werden, wenn erkannt und akzeptiert.",
+      "Es ist nie rechtlich verbindlich."
+    ],
+    "loesung": "Es kann rechtlich verbindlich werden, wenn erkannt und akzeptiert.",
+    "erklaerung": "Das Lastenheft kann rechtlich verbindlich werden, wenn es explizit im Vertrag erwähnt oder angehängt wird."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf die Erstellung eines Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es beginnt mit der Anforderungspriorisierung.",
+      "Es ist ein eigenständiges Projekt, das selbstständig erstellt werden kann.",
+      "Es wird nur von externen Projekten benötigt.",
+      "Es wird immer von den Stakeholdern genehmigt und unterzeichnet."
+    ],
+    "loesung": "Es wird immer von den Stakeholdern genehmigt und unterzeichnet.",
+    "erklaerung": "Das Lastenheft muss von allen wichtigen Stakeholdern genehmigt und unterzeichnet werden, um gültig zu sein."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Pflichtenheft?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es beschreibt das Was & Warum.",
+      "Es ist vom Auftraggeber erstellt.",
+      "Es hat eine rechtliche Dimension und ist oft als Vertragsgrundlage.",
+      "Es enthält keine technischen Anforderungen."
+    ],
+    "loesung": "Es hat eine rechtliche Dimension und ist oft als Vertragsgrundlage.",
+    "erklaerung": "Das Pflichtenheft hat eine rechtliche Dimension und dient oft als Vertragsgrundlage."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf die Rechtschaffenheit eines Pflichtenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es ist nie rechtlich verbindlich.",
+      "Es ist immer rechtlich verbindlich, wenn von beiden Seiten akzeptiert.",
+      "Es dient nur als Kommunikationsgrundlage.",
+      "Es ist nur rechtlich verbindlich, wenn explizit im Vertrag erwähnt."
+    ],
+    "loesung": "Es ist immer rechtlich verbindlich, wenn von beiden Seiten akzeptiert.",
+    "erklaerung": "Das Pflichtenheft ist rechtlich bindend, wenn von beiden Seiten akzeptiert."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf die Erstellung eines Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Es beginnt immer mit der Analyse der Ausgangssituation.",
+      "Es ist ein eigenständiges Projekt, das selbstständig erstellt werden kann.",
+      "Es wird nur von externen Projekten benötigt.",
+      "Es wird immer von den Stakeholdern genehmigt und unterzeichnet."
+    ],
+    "loesung": "Es beginnt immer mit der Analyse der Ausgangssituation.",
+    "erklaerung": "Das Lastenheft beginnt immer mit der Analyse der Ausgangssituation, um den Kontext des Projekts zu verstehen."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Pflichtenheft?",
+    "typ": "offen",
+    "optionen": [],
+    "loesung": "Das Pflichtenheft beschreibt die technische Umsetzung, einschließlich der technologischen und organisatorischen Spezifikationen, Lieferzeiten und Kostenrahmen.",
+    "erklaerung": "Das Pflichtenheft beschreibt die technische Umsetzung, einschließlich der technologischen und organisatorischen Spezifikationen, Lieferzeiten und Kostenrahmen."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist KEIN Teil des ITIL-Frameworks?",
     "typ": "multiple_choice",
     "optionen": [
       "Incident Management",
-      "Problem Management",
-      "Configuration Management",
-      "Tools Management"
-    ],
-    "loesung": "Tools Management",
-    "erklaerung": "ITIL definiert keine Tools, sondern Prozesse."
-  },
-  {
-    "frage": "Welche der folgenden Prozesse ist nicht Teil der ITIL Prozesse?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Incident Management",
-      "Problem Management",
-      "Configuration Management",
-      "Software Development"
-    ],
-    "loesung": "Software Development",
-    "erklaerung": "Software Development ist kein ITIL-Prozess, sondern ein Entwicklungsprozess."
-  },
-  {
-    "frage": "Welche der folgenden Phasen gehört zum Betriebsübergabe in die IT?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Schulung",
-      "Integration/",
-      "Produktion",
-      "Test/Abnahme"
-    ],
-    "loesung": "Test/Abnahme",
-    "erklaerung": "Test/Abnahme ist eine der Phasen bei der Betriebsübergabe in die IT."
-  },
-  {
-    "frage": "Welche der folgenden Prozesse ist Teil der ITIL Service Support Prozesse?",
-    "typ": "multiple_choice",
-    "optionen": [
-      "Service Level Management",
-      "Financial Management",
       "Change Management",
-      "Release Management"
+      "Configuration Management",
+      "Project Management"
     ],
-    "loesung": "Service Level Management",
-    "erklaerung": "Service Level Management ist ein Teil der ITIL Service Support Prozesse."
+    "loesung": "Project Management",
+    "erklaerung": "ITIL beantwortet die Frage, welche Prozesse für die Administration und den Betrieb der IT-Infrastruktur notwendig sind, um mit dem Kunden vereinbarte Services optimal zu erbringen. Project Management ist kein Teil des ITIL-Frameworks."
   },
   {
-    "frage": "Welche der folgenden Prozesse ist Teil der ITIL Service Delivery Prozesse?",
+    "frage": "Welcher Prozess ist verantwortlich für die Erstellung und Verwaltung des Configuration Management Databases (CMDB)?",
     "typ": "multiple_choice",
     "optionen": [
       "Incident Management",
@@ -235,31 +196,79 @@
       "Configuration Management",
       "Service Level Management"
     ],
-    "loesung": "Incident Management",
-    "erklaerung": "Incident Management ist ein Teil der ITIL Service Delivery Prozesse."
+    "loesung": "Configuration Management",
+    "erklaerung": "Der Configuration Management Prozess ist verantwortlich für die Erstellung und Verwaltung des CMDB, der alle Assets inklusive ihrer Konfigurationen und Kommunikationsmatrizen enthält."
   },
   {
-    "frage": "Welche der folgenden Prozesse ist nicht Teil der ITIL Prozesse?",
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Bereitstellung von IT-Services und koordiniert die Prozesse des Service Support und Service Delivery?",
     "typ": "multiple_choice",
     "optionen": [
-      "Configuration Management",
-      "Problem Management",
       "Service Level Management",
-      "Software Development"
+      "Service Continuity Management",
+      "Service Desk",
+      "Release Management"
     ],
-    "loesung": "Software Development",
-    "erklaerung": "Software Development ist kein ITIL-Prozess, sondern ein Entwicklungsprozess."
+    "loesung": "Service Level Management",
+    "erklaerung": "Service Level Management ist der Prozess, der die Service Level Agreements (SLAs) definiert und die Service Support und Service Delivery Prozesse koordiniert."
   },
   {
-    "frage": "Welche der folgenden Phasen gehört nicht zum Vom IT-Projekt in den IT-Betrieb?",
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Erkennung und Dokumentation von Problemen, die nicht beseitigt werden können?",
     "typ": "multiple_choice",
     "optionen": [
-      "Local DEV-System",
-      "System-Test",
-      "Betriebsübergabe in die IT",
-      "Change-Request"
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Release Management"
     ],
-    "loesung": "Change-Request",
-    "erklaerung": "Change-Request ist ein Verwaltungsprozess und gehört nicht zur Übergabephase."
+    "loesung": "Problem Management",
+    "erklaerung": "Problem Management ist der Prozess, der Probleme, die nicht beseitigt werden können, erkennt und dokumentiert, und beschreibt, wie mit Problemen umgegangen wird."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Dokumentation und Verwaltung aller Assets und ihrer Konfigurationen?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Release Management"
+    ],
+    "loesung": "Configuration Management",
+    "erklaerung": "Der Configuration Management Prozess ist verantwortlich für die Dokumentation und Verwaltung aller Assets und ihrer Konfigurationen."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Erkennung, Dokumentation und Beseitigung von Störungen des IT-Services?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Change Management"
+    ],
+    "loesung": "Incident Management",
+    "erklaerung": "Der Incident Management Prozess ist wichtig für die Erkennung, Dokumentation und Beseitigung von Störungen des IT-Services."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Planung, Umsetzung und Freigabe von Änderungen an bestehenden IT-Services?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Change Management",
+      "Release Management"
+    ],
+    "loesung": "Change Management",
+    "erklaerung": "Change Management ist der Prozess, der die Planung, Umsetzung und Freigabe von Änderungen an bestehenden IT-Services verantwortlich ist."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist wichtig für die Dokumentation und Verwaltung aller IT-Assets, einschließlich ihrer Konfigurationen und Kommunikationsmatrizen?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Service Level Management"
+    ],
+    "loesung": "Configuration Management",
+    "erklaerung": "Der Configuration Management Prozess ist wichtig für die Dokumentation und Verwaltung aller IT-Assets, einschließlich ihrer Konfigurationen und Kommunikationsmatrizen."
   }
 ]
