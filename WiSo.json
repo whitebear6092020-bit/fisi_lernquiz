@@ -1,795 +1,605 @@
 {
-  "01_Erarbeitung Marktformen 1.pdf": [
+  "Compliance_Triage_NB-204_Ausarbeitung 1.pdf": [
     {
-      "frage": "Welche Marktform wird beschrieben, wenn viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten?",
+      "frage": "Welche Punkte müssen geprüft und dokumentiert werden, bevor das Monitoring freigeschaltet werden kann?",
       "typ": "multiple_choice",
       "optionen": [
-        "Polypol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Nachfrageoligopol"
+        "Zweck und Rechtsgrundlage",
+        "Datenumfang und Erforderlichkeit",
+        "Löschfristen",
+        "Zugriffsrechte",
+        "Verantwortlichkeiten"
       ],
-      "loesung": "Polypol",
-      "erklaerung": "Polypol ist die Marktform, bei der viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten."
+      "loesung": "Zweck und Rechtsgrundlage, Datenumfang und Erforderlichkeit, Löschfristen, Zugriffsrechte, Verantwortlichkeiten",
+      "erklaerung": "Es handelt sich hier um die wesentlichen Punkte, die nach der Entscheidung als IT-Fachkraft geprüft werden müssen."
     },
     {
-      "frage": "Welche Marktform ist als die beste Marktform der Marktwirtschaft angesehen, da ein reger Wettbewerb unter den Anbietern und Nachfrager herrscht?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Polypol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Nachfrageoligopol"
-      ],
-      "loesung": "Polypol",
-      "erklaerung": "Polypol wird als die beste Marktform der Marktwirtschaft angesehen, da ein reger Wettbewerb unter den Anbietern und Nachfrager herrscht."
-    },
-    {
-      "frage": "Welche Marktform besteht aus wenigen, relativ großen Anbieter und wenigen, relativ großen Nachfrager?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Zweiseitiges Oligopol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Nachfrageoligopol"
-      ],
-      "loesung": "Zweiseitiges Oligopol",
-      "erklaerung": "Zweiseitiges Oligopol besteht aus wenigen, relativ großen Anbieter und wenigen, relativ großen Nachfrager."
-    },
-    {
-      "frage": "Welche Marktform ist geprägt durch wenige, relativ große Anbieter, die einem Nachfrager gegenüberstehen?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Beschränktes Nachfragemonopol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Nachfrageoligopol"
-      ],
-      "loesung": "Beschränktes Nachfragemonopol",
-      "erklaerung": "Beschränktes Nachfragemonopol ist geprägt durch wenige, relativ große Anbieter, die einem Nachfrager gegenüberstehen."
-    },
-    {
-      "frage": "Markieren Sie die Marktform, bei der viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten, in das Schaubild ein.",
+      "frage": "Warum sollte das Monitoring in einer kontrollierten technischen Testumgebung betrieben werden, bevor es in die Produktivumgebung übertragen wird?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Polypol",
-      "erklaerung": "Marktform, bei der viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten."
+      "loesung": "Um keine unnötigen Beschäftigtendaten produktiv zu verarbeiten und sicherzustellen, dass die Verarbeitung nachvollziehbar, angemessen geschützt und organisatorisch geregelt ist.",
+      "erklaerung": "Diese Begründung ist direkt aus dem Lernmaterial entnommen und prüft die Verständnisfähigkeit des Inhalts."
     },
     {
-      "frage": "Welche Marktform hat den Charakter von wenigen Anbieter und wenigen Nachfrager, die miteinander in starker Konkurrenz stehen?",
+      "frage": "Welche Person oder Institution sollte in den Prüfpunkten 1 und 2 befragt werden, um die notwendigen Informationen zu erhalten?",
       "typ": "multiple_choice",
       "optionen": [
-        "Polypol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Zweiseitiges Oligopol"
+        "Datenschutzbeauftragte",
+        "Arbeitnehmervertretung",
+        "Kundensupport",
+        "Produktentwickler"
       ],
-      "loesung": "Zweiseitiges Oligopol",
-      "erklaerung": "Zweiseitiges Oligopol hat den Charakter von wenigen Anbieter und wenigen Nachfrager, die miteinander in starker Konkurrenz stehen."
+      "loesung": "Datenschutzbeauftragte",
+      "erklaerung": "Es wird hier auf die Beteiligung der Datenschutzbeauftragten hingewiesen, die in den Prüfpunkten eine wichtige Rolle spielen."
     },
     {
-      "frage": "Welche Marktform ist geprägt durch wenige, relativ große Anbieter, die sich gegenüber wenigen, relativ großen Nachfrager verhalten?",
+      "frage": "Welche Punkte sind nach der Entscheidung als IT-Fachkraft noch ungeklärt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Polypol",
-        "Auszug aus einem Wirtschaftslexikon",
-        "Angebotsoligopol",
-        "Zweiseitiges Oligopol"
+        "Zweck und Rechtsgrundlage",
+        "Datenumfang und Erforderlichkeit",
+        "Löschfristen",
+        "Zugriffsrechte",
+        "Verantwortlichkeiten",
+        "Beteiligungsrechte"
       ],
-      "loesung": "Zweiseitiges Oligopol",
-      "erklaerung": "Zweiseitiges Oligopol ist geprägt durch wenige, relativ große Anbieter, die sich gegenüber wenigen, relativ großen Nachfrager verhalten."
+      "loesung": "Zweck und Rechtsgrundlage, Datenumfang und Erforderlichkeit, Löschfristen, Zugriffsrechte, Verantwortlichkeiten, Beteiligungsrechte",
+      "erklaerung": "Diese Frage prüft, ob der Fachkunde die wichtigsten Punkte der Entscheidung versteht."
     },
     {
-      "frage": "Markieren Sie die Marktform, bei der wenige, relativ große Anbieter einem Nachfrager gegenüberstehen, in das Schaubild ein.",
+      "frage": "Was ist der Hauptgrund, warum das Monitoring vorerst nicht freigeschaltet werden kann?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Beschränktes Nachfragemonopol",
-      "erklaerung": "Marktform, bei der wenige, relativ große Anbieter einem Nachfrager gegenüberstehen."
+      "loesung": "Weil wesentliche organisatorische und rechtliche Rahmenbedingungen noch ungeklärt sind.",
+      "erklaerung": "Dies prüft die Verständnisfähigkeit der Entscheidungsgründe."
+    },
+    {
+      "frage": "Welche Maßnahmen sollten nach der Freischaltung des Monitoring eingeleitet werden, gemäß der Entscheidung als IT-Fachkraft?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage klären",
+        "Datenumfang und Erforderlichkeit prüfen",
+        "Löschfristen festlegen",
+        "Zugriffsrechte definieren",
+        "Verantwortlichkeiten festlegen",
+        "Beteiligungsrechte prüfen"
+      ],
+      "loesung": "Zweck und Rechtsgrundlage klären, Datenumfang und Erforderlichkeit prüfen, Löschfristen festlegen, Zugriffsrechte definieren, Verantwortlichkeiten festlegen, Beteiligungsrechte prüfen",
+      "erklaerung": "Diese Frage prüft, ob der Fachkunde die notwendigen Schritte nach der Freischaltung versteht."
+    },
+    {
+      "frage": "Welche Funktionen des Monitoring sollten nach der Entscheidung als IT-Fachkraft geprüft werden, um die Privatsphäre der Beschäftigten zu schützen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Bildschirmaufnahmen",
+        "Programmstarts",
+        "Nutzungszeiten",
+        "Bildschirmaufnahmen und Programmstarts"
+      ],
+      "loesung": "Bildschirmaufnahmen",
+      "erklaerung": "Dies prüft die Verständnisfähigkeit der spezifischen Funktionen, die im Zusammenhang mit der Privatsphäre der Beschäftigten stehen."
+    },
+    {
+      "frage": "Welche Person oder Institution sollte in den Prüfpunkten 1 und 2 befragt werden, um die notwendigen Informationen zu erhalten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Datenschutzbeauftragte",
+        "Arbeitnehmervertretung",
+        "Kundensupport",
+        "Produktentwickler"
+      ],
+      "loesung": "Datenschutzbeauftragte",
+      "erklaerung": "Es wird hier auf die Beteiligung der Datenschutzbeauftragten hingewiesen, die in den Prüfpunkten eine wichtige Rolle spielen."
+    },
+    {
+      "frage": "Was ist der Vorschlag für den Ticketkommentar, der in den Prüfpunkten 1 und 2 erwähnt wird?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Rollout vorerst gestoppt, da Zweck/Rechtsgrundlage, Datenumfang, Löschfristen und Zugriffsrechte des Monitorings noch ungeklärt sind. Bitte Datenschutzbeauftragte:n und die zuständige Ansprechperson beim Kunden einbinden und vor der Produktivschaltung insbesondere die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept prüfen.",
+      "erklaerung": "Dies prüft die Verständnisfähigkeit des Vorschlags für den Ticketkommentar."
+    },
+    {
+      "frage": "Welche Punkte sollten nach der Freischaltung des Monitoring geprüft werden, um die Privatsphäre der Beschäftigten zu schützen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Bildschirmaufnahmen",
+        "Programmstarts",
+        "Nutzungszeiten",
+        "Bildschirmaufnahmen und Programmstarts"
+      ],
+      "loesung": "Bildschirmaufnahmen",
+      "erklaerung": "Dies prüft die Verständnisfähigkeit der spezifischen Funktionen, die im Zusammenhang mit der Privatsphäre der Beschäftigten stehen."
     }
   ],
-  "02_Problematik Butterberg und Milchsee 1.pdf": [
+  "Compliance_Triage_NB-204_Kurzfassung 1.pdf": [
     {
-      "frage": "Welche der folgenden Aussagen beschreibt die Situation am Milchsee und dem Butterberg korrekt?",
+      "frage": "Welche Punkte sind noch nicht geklärt, bevor das Monitoring gestartet werden kann?",
       "typ": "multiple_choice",
       "optionen": [
-        "Die Milchpreise sind auf 1,00 € je Liter gefallen, was zu Produktivitätssteigerungen geführt hat.",
-        "Der Staat hat Mindestpreise für Milch und Butter auf 2,00 € je Liter festgelegt, um die Landwirtschaft zu schützen.",
-        "Die Festlegung von Mindestpreisen hat zu einem Marktinkonsistenz geführt, da die Nachfrage über das Angebot hinausgeht."
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Datenerfassung und deren Erforderlichkeit",
+        "Konkrete Löschfristen für die erhobenen Daten",
+        "Zugriff auf die Monitoring-Daten",
+        "Beteiligungsrechte einer Arbeitnehmervertretung"
       ],
-      "loesung": "Der Staat hat Mindestpreise für Milch und Butter auf 2,00 € je Liter festgelegt, um die Landwirtschaft zu schützen.",
-      "erklaerung": "Die Festlegung von Mindestpreisen durch den Staat umfasst eine marktunkonforme Eingabe in den Markt."
+      "loesung": "Zweck und Rechtsgrundlage des Monitorings, Datenerfassung und deren Erforderlichkeit, Konkrete Löschfristen für die erhobenen Daten, Zugriff auf die Monitoring-Daten, Beteiligungsrechte einer Arbeitnehmervertretung",
+      "erklaerung": "Alle genannten Punkte müssen geklärt sein, bevor das Monitoring starten kann."
     },
     {
-      "frage": "Welche Auswirkung hat die Festlegung von Mindestpreisen auf den Markt?",
+      "frage": "Was ist die Entscheidung zur weiteren Handlung?",
       "typ": "multiple_choice",
       "optionen": [
-        "Es wird zu einer Versorgungsmangel, da die Nachfrage unter dem Mindestpreis über das Angebot hinausgeht.",
-        "Es wird zu einem Mangel, da die Nachfrage unter dem Mindestpreis unter dem Angebot hinausgeht.",
-        "Es wird zu einer Versorgung, da die Nachfrage über dem Mindestpreis unter dem Angebot hinausgeht."
+        "Produktiv-Rollout fortsetzen",
+        "Produktiv-Rollout stoppen",
+        "Monitoring starten, aber ohne Datenerfassung",
+        "Monitoring starten, ohne Beteiligung der Datenschutzbeauftragten"
       ],
-      "loesung": "Es wird zu einer Versorgungsmangel, da die Nachfrage unter dem Mindestpreis über das Angebot hinausgeht.",
-      "erklaerung": "Mindestpreise führen zu einer Versorgungsmangel, da die Nachfrage über dem Mindestpreis über dem Angebot hinausgeht."
+      "loesung": "Produktiv-Rollout stoppen",
+      "erklaerung": "Technische Funktionstüchtigkeit allein reicht nicht aus; vor der Freischaltung müssen Datenschutz, Datenumfang, Löschung und Zugriffsrechte geklärt sein."
     },
     {
-      "frage": "Welche der folgenden Situationen würde in einem Angebot-Nachfrage-Diagramm als Verschiebung der Nachfragekurve repräsentieren?",
+      "frage": "Welche Prüfpunkte wurden im Ticket aufgeführt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Ein steigender Mindestpreis für Milch",
-        "Ein sinkender Marktpreis für Milch",
-        "Ein steigender Marktpreis für Milch"
+        "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit – besonders der Bildschirmaufnahmen – prüfen",
+        "Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten festlegen und Beteiligungsrechte prüfen",
+        "Technische Funktionalität des Monitoring",
+        "Zugriff auf die Monitoring-Daten von Arbeitnehmervertretung"
       ],
-      "loesung": "Ein steigender Mindestpreis für Milch",
-      "erklaerung": "Ein steigender Mindestpreis würde die Nachfragekurve nach oben verschieben."
+      "loesung": "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit – besonders der Bildschirmaufnahmen – prüfen, Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten festlegen und Beteiligungsrechte prüfen",
+      "erklaerung": "Diese beiden Punkte wurden explizit als Prüfpunkte im Ticket aufgeführt."
     },
     {
-      "frage": "Welche der folgenden Situationen würde in einem Angebot-Nachfrage-Diagramm als Verschiebung der Angebotkurve repräsentieren?",
+      "frage": "Warum wurde der Produktiv-Rollout gestoppt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Ein steigender Marktpreis für Milch",
-        "Ein sinkender Marktpreis für Milch",
-        "Ein sinkender Mindestpreis für Milch"
+        "Weil die technische Funktionalität noch nicht geprüft wurde",
+        "Weil die Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte noch nicht geklärt sind",
+        "Weil die Bildschirmaufnahmen nicht benötigt werden",
+        "Weil die Arbeitnehmervertretung noch nicht einbezogen wurde"
       ],
-      "loesung": "Ein sinkender Marktpreis für Milch",
-      "erklaerung": "Ein sinkender Marktpreis würde die Angebotkurve nach links verschieben."
+      "loesung": "Weil die Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte noch nicht geklärt sind",
+      "erklaerung": "Die Freischaltung des Monitoring kann nur erfolgen, wenn alle Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte geklärt sind."
     },
     {
-      "frage": "Nennen Sie zwei marktkonforme Eingriffe des Staates, die nicht marktinkonforme Eingriffe sind, und beschreiben Sie, wie sie grafisch in einem Angebot-Nachfrage-Diagramm dargestellt werden.",
+      "frage": "Welche Beteiligten sollten gemäß dem Ticketkommentar einbezogen werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Datenschutzbeauftragte:n und zuständige Ansprechperson",
+        "Technische Support-Team",
+        "Marketing-Abteilung",
+        "Finanzabteilung",
+        "Personenresourcen-Abteilung"
+      ],
+      "loesung": "Datenschutzbeauftragte:n und zuständige Ansprechperson",
+      "erklaerung": "Die Datenschutzbeauftragte:n und die zuständige Ansprechperson sollten einbezogen werden, um die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept zu prüfen."
+    },
+    {
+      "frage": "Was ist der Hauptgrund, warum das Monitoring vorerst gestoppt wurde?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Marktkonforme Eingriffe: Subventionen für die Landwirtschaft, Förderungen für die Entwicklung von Milchproduktionsmethoden. Marktunkonforme Eingriffe: Mindest- und Höchstpreisregulierung, direkte Eingriffe in den Markt durch den Staat.",
-      "erklaerung": "Marktkonforme Eingriffe sind solche, die den Markt nicht direkt beeinflussen, sondern durch die Förderung der Produktivität oder den Wettbewerb. Marktunkonforme Eingriffe beeinflussen den Markt direkt, indem sie Preise festlegen oder die Marktkräfte beeinflussen."
+      "loesung": "Weil die Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte noch nicht geklärt sind.",
+      "erklaerung": "Die Freischaltung des Monitoring kann nur erfolgen, wenn alle Datenschutzaspekte, Datenumfang, Löschfristen und Zugriffsrechte geklärt sind."
     },
     {
-      "frage": "Welche Auswirkung hat eine Festlegung von Höchstpreisen auf den Markt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Es wird zu einer Versorgungsmangel, da die Nachfrage über das Angebot hinausgeht.",
-        "Es wird zu einem Mangel, da die Nachfrage unter dem Angebot hinausgeht.",
-        "Es wird zu einer Versorgung, da die Nachfrage unter dem Angebot hinausgeht."
-      ],
-      "loesung": "Es wird zu einem Mangel, da die Nachfrage unter dem Angebot hinausgeht.",
-      "erklaerung": "Höchstpreise führen zu einem Mangel, da die Nachfrage über dem Höchstpreis unter dem Angebot hinausgeht."
-    },
-    {
-      "frage": "Welche der folgenden Situationen würde in einem Angebot-Nachfrage-Diagramm als Verschiebung der Angebotkurve nach rechts darstellen?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Ein sinkender Marktpreis für Milch",
-        "Ein steigender Marktpreis für Milch",
-        "Ein sinkender Mindestpreis für Milch"
-      ],
-      "loesung": "Ein steigender Marktpreis für Milch",
-      "erklaerung": "Ein steigender Marktpreis würde die Angebotkurve nach rechts verschieben."
-    },
-    {
-      "frage": "Nennen Sie drei marktkonforme Eingriffe des Staates, die nicht marktinkonforme Eingriffe sind, und beschreiben Sie, wie sie grafisch in einem Angebot-Nachfrage-Diagramm dargestellt werden.",
+      "frage": "Welche Punkte müssen noch klargestellt werden, bevor das Monitoring starten kann?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Marktkonforme Eingriffe: Subventionen für die Landwirtschaft, Förderungen für die Entwicklung von Milchproduktionsmethoden, Förderungen für die Entwicklung von Milchverarbeitungsanlagen. Marktunkonforme Eingriffe: Mindest- und Höchstpreisregulierung, direkte Eingriffe in den Markt durch den Staat.",
-      "erklaerung": "Marktkonforme Eingriffe sind solche, die den Markt nicht direkt beeinflussen, sondern durch die Förderung der Produktivität oder den Wettbewerb. Marktunkonforme Eingriffe beeinflussen den Markt direkt, indem sie Preise festlegen oder die Marktkräfte beeinflussen."
+      "loesung": "Zweck und Rechtsgrundlage des Monitorings, Datenerfassung und deren Erforderlichkeit, Konkrete Löschfristen für die erhobenen Daten, Zugriff auf die Monitoring-Daten, Beteiligungsrechte einer Arbeitnehmervertretung.",
+      "erklaerung": "Alle genannten Punkte müssen geklärt sein, bevor das Monitoring starten kann."
+    },
+    {
+      "frage": "Was ist die Bedeutung der Bildschirmaufnahmen im Zusammenhang mit dem Monitoring?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Sie sind unbedingt erforderlich",
+        "Sie können optional sein, je nach Rechtsgrundlage",
+        "Sie sind nicht erforderlich",
+        "Sie sind nur bei speziellen Anforderungen erforderlich"
+      ],
+      "loesung": "Sie können optional sein, je nach Rechtsgrundlage",
+      "erklaerung": "Die Erforderlichkeit der Bildschirmaufnahmen muss auf Rechtsgrundlage geprüft werden."
+    },
+    {
+      "frage": "Welche Rolle hat die Datenschutzbeauftragte:n im Kontext des Monitoring-Prozesses?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Die Datenschutzbeauftragte:n sollten die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept prüfen.",
+      "erklaerung": "Die Datenschutzbeauftragte:n haben eine wichtige Rolle bei der Prüfung der Erforderlichkeit der Bildschirmaufnahmen und dem Lösch- und Berechtigungskonzept."
+    },
+    {
+      "frage": "Was ist die Bedeutung der Löschfristen für die Monitoring-Daten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Sie bestimmen die Dauer der Datenspeicherung",
+        "Sie sind irrelevant für das Monitoring",
+        "Sie bestimmen die technische Funktionalität des Monitoring",
+        "Sie bestimmen die Rechte der Arbeitnehmer"
+      ],
+      "loesung": "Sie bestimmen die Dauer der Datenspeicherung",
+      "erklaerung": "Die Löschfristen bestimmen die Dauer, für die die erhobenen Daten gespeichert werden."
     }
   ],
-  "03_Angebot und Nachfrage 1.pdf": [
+  "Compliance_Triage_NB-204_Zwischenversion 1.pdf": [
     {
-      "frage": "Welche Preise sind bei der Nachfrage größer als das Angebot?",
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 noch nicht geklärt und stellt ein Hindernis für den Produktiv-Rollout dar?",
       "typ": "multiple_choice",
       "optionen": [
-        "160,00 €",
-        "180,00 €",
-        "200,00 €",
-        "220,00 €",
-        "240,00 €",
-        "260,00 €",
-        "280,00 €"
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit des Monitorings",
+        "Datenumfang, insbesondere Bildschirmaufnahmen",
+        "Löschfristen und Zugriffsrechte"
       ],
-      "loesung": "160,00 €, 180,00 €, 200,00 €, 220,00 €",
-      "erklaerung": "Bei diesen Preisen ist die nachgefragte Menge größer als die angebotene Menge."
+      "loesung": "Zweck und Rechtsgrundlage des Monitorings",
+      "erklaerung": "Die technische Funktionstüchtigkeit allein reicht nicht aus, um den Produktiv-Rollout freizugeben."
     },
     {
-      "frage": "Bei welchem Preis werden die Anbieter wahrscheinlich den Preis senken?",
+      "frage": "Was ist der Hauptgrund, warum der Produktiv-Rollout des Monitorings zunächst gestoppt werden sollte?",
       "typ": "multiple_choice",
       "optionen": [
-        "280,00 €",
-        "260,00 €",
-        "240,00 €",
-        "200,00 €",
-        "180,00 €",
-        "160,00 €"
+        "Technische Funktionstüchtigkeit",
+        "Fehlende Rechtsgrundlage",
+        "Unklare Verantwortlichkeiten",
+        "Fehlender Datenschutz"
       ],
-      "loesung": "280,00 €",
-      "erklaerung": "Da es bei diesem Preis einen starken Nachfrageüberhang gibt, werden die Anbieter den Preis senken, um die Menge zu erhöhen."
+      "loesung": "Fehlende Rechtsgrundlage",
+      "erklaerung": "Die technische Funktionstüchtigkeit allein reicht nicht, um den Produktiv-Rollout freizugeben."
     },
     {
-      "frage": "Welche Preise sind bei der Nachfrage kleiner als das Angebot?",
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
       "typ": "multiple_choice",
       "optionen": [
-        "160,00 €",
-        "180,00 €",
-        "200,00 €",
-        "220,00 €",
-        "240,00 €",
-        "260,00 €",
-        "280,00 €"
+        "Datenumfang, insbesondere Bildschirmaufnahmen",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Verantwortlichkeiten",
+        "Fehlende Datenschutzstelle"
       ],
-      "loesung": "260,00 €, 280,00 €",
-      "erklaerung": "Bei diesen Preisen ist die angebotene Menge größer als die nachgefragte Menge."
+      "loesung": "Datenumfang, insbesondere Bildschirmaufnahmen",
+      "erklaerung": "Die Datenumfang, insbesondere die Bildschirmaufnahmen, müssen auf Erforderlichkeit geprüft werden."
     },
     {
-      "frage": "Welche Preise sind bei der Nachfrage gleich groß wie das Angebot?",
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
       "typ": "multiple_choice",
       "optionen": [
-        "160,00 €",
-        "180,00 €",
-        "200,00 €",
-        "220,00 €",
-        "240,00 €",
-        "260,00 €",
-        "280,00 €"
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Löschfristen",
+        "Fehlende Verantwortlichkeiten"
       ],
-      "loesung": "220,00 €",
-      "erklaerung": "Bei diesem Preis ist die nachgefragte Menge gleich groß wie die angebotene Menge."
+      "loesung": "Zweck und Rechtsgrundlage des Monitorings",
+      "erklaerung": "Die Zweck und Rechtsgrundlage des Monitorings sind noch nicht geklärt."
     },
     {
-      "frage": "Welche Wirkung hat es auf die Menge, wenn der Preis von 220,00 € auf 240,00 € steigt?",
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Löschfristen",
+        "Fehlende Beteiligungsrechte der Arbeitnehmervertretung"
+      ],
+      "loesung": "Fehlende Löschfristen",
+      "erklaerung": "Es fehlen konkrete Löschfristen sowie Angaben dazu, wie die Löschung technisch sichergestellt wird."
+    },
+    {
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Verantwortlichkeiten",
+        "Fehlende Beteiligungsrechte der Arbeitnehmervertretung"
+      ],
+      "loesung": "Fehlende Verantwortlichkeiten",
+      "erklaerung": "Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen) sind noch nicht festgelegt."
+    },
+    {
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Löschfristen",
+        "Fehlende Beteiligungsrechte der Arbeitnehmervertretung"
+      ],
+      "loesung": "Fehlende Beteiligungsrechte der Arbeitnehmervertretung",
+      "erklaerung": "Mögliche Beteiligungsrechte einer Arbeitnehmervertretung müssen geklärt werden."
+    },
+    {
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Löschfristen",
+        "Fehlende Zugriffsrechte"
+      ],
+      "loesung": "Fehlende Zugriffsrechte",
+      "erklaerung": "Es ist offen, wer Zugriff auf die Monitoring-Daten hat – insbesondere bei Bildschirmaufnahmen muss der Zugriff klar begrenzt und nachvollziehbar geregelt sein."
+    },
+    {
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Zweck und Rechtsgrundlage des Monitorings",
+        "Technische Einsatzmöglichkeit",
+        "Fehlende Löschfristen",
+        "Fehlende Verantwortlichkeiten"
+      ],
+      "loesung": "Zweck und Rechtsgrundlage des Monitorings",
+      "erklaerung": "Zweck und Rechtsgrundlage des Monitorings sind noch nicht geklärt."
+    },
+    {
+      "frage": "Welche der folgenden Punkte ist laut Ticket NB-204 nicht geklärt und muss vor der Freischaltung des Monitorings geklärt werden?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Die Menge sinkt.",
-      "erklaerung": "Die Nachfragekurve bewegt sich nach links, was zu einem Sinken der Menge führt."
-    },
-    {
-      "frage": "Welche Wirkung hat es auf den Preis, wenn die Nachfrage von 200,00 € auf 220,00 € steigt?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Preis steigt.",
-      "erklaerung": "Die Nachfragekurve bewegt sich nach oben, was zu einem Anstieg des Preises führt."
-    },
-    {
-      "frage": "Welche Wirkung hat es auf den Preis, wenn das Angebot von 200,00 € auf 220,00 € steigt?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Preis sinkt.",
-      "erklaerung": "Die Angebotskurve bewegt sich nach rechts, was zu einem Anstieg der Menge und einem Sinken des Preises führt."
-    },
-    {
-      "frage": "Welche Wirkung hat es auf den Preis, wenn das Angebot von 280,00 € auf 260,00 € fällt?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Preis steigt.",
-      "erklaerung": "Die Angebotskurve bewegt sich nach links, was zu einem Anstieg des Preises führt."
-    }
-  ],
-  "01_Angebot_und_Nachfrage_geloest.pdf": [
-    {
-      "frage": "Welcher Preisbereich zeigt einen Nachfrageüberhang an?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "bis 220 €",
-        "ab 220 €",
-        "ab 240 €",
-        "nur bei 220 €"
-      ],
-      "loesung": "bis 220 €",
-      "erklaerung": "Bis zum Gleichgewichtspreis von 220 € übersteigt die Nachfrage die Angebotsmenge."
-    },
-    {
-      "frage": "Welchen Preisbewegungsvorgang gibt es, wenn die Nachfrage über die Angebotsmenge verfügt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Preisverfall",
-        "Preisanstieg",
-        "Preisstabilisierung",
-        "keine Preisbewegung"
-      ],
-      "loesung": "Preisanstieg",
-      "erklaerung": "Die Anbieter können den Preis erhöhen, ohne ihre Ware sitzen zu lassen."
-    },
-    {
-      "frage": "Auf welche Art und Weise wird die Gleichgewichtspreisbestimmung grafisch dargestellt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Durch einen Punkt, der den Schnittpunkt beider Kurven ist",
-        "Durch eine vertikale Linie, die den Preis markiert",
-        "Durch eine horizontale Linie, die die Menge markiert",
-        "Durch eine Gerade, die die Preis-Menge-Beziehung zeigt"
-      ],
-      "loesung": "Durch einen Punkt, der den Schnittpunkt beider Kurven ist",
-      "erklaerung": "Der Schnittpunkt der Nachfrage- und Angebotskurve markiert den Gleichgewichtspreis."
-    },
-    {
-      "frage": "Was passiert, wenn das Angebot die Nachfrage übersteigt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Anbieter senken den Preis",
-        "Anbieter erhöhen den Preis",
-        "Preis bleibt gleich",
-        "Anbieter verändern den Preis nicht"
-      ],
-      "loesung": "Anbieter senken den Preis",
-      "erklaerung": "Die Anbieter müssen den Preis senken, um ihre Ware zu verkaufen."
-    },
-    {
-      "frage": "Welche der folgenden Aussagen ist nicht korrekt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Bei einem Preis von 200 € ist die Nachfrage größer als das Angebot",
-        "Bei einem Preis von 220 € sind Angebot und Nachfrage gleich",
-        "Bei einem Preis von 240 € ist das Angebot größer als die Nachfrage",
-        "Bei einem Preis von 280 € ist der Angebotsüberhang am größten"
-      ],
-      "loesung": "Bei einem Preis von 200 € ist die Nachfrage größer als das Angebot",
-      "erklaerung": "Bei einem Preis von 200 € ist das Angebot größer als die Nachfrage, was einen Angebotsüberhang erzeugt."
-    },
-    {
-      "frage": "Welcher Preis ist der Gleichgewichtspreis?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "220 €",
-      "erklaerung": "Der Gleichgewichtspreis ist der Punkt, an dem Angebot und Nachfrage gleich groß sind."
-    },
-    {
-      "frage": "Wie verändert sich die Anreizstruktur für Anbieter, wenn der Preis über dem Gleichgewichtspreis liegt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Anbieter haben keinen Anreiz, den Preis zu ändern",
-        "Anbieter haben einen Anreiz, den Preis zu senken",
-        "Anbieter haben einen Anreiz, den Preis zu erhöhen",
-        "Anbieter haben keinen Anreiz, den Preis zu ändern, bis der Preis 240 € erreicht"
-      ],
-      "loesung": "Anbieter haben einen Anreiz, den Preis zu senken",
-      "erklaerung": "Bei Preisen über dem Gleichgewichtspreis übersteigt das Angebot die Nachfrage, sodass Anbieter den Preis senken können, um ihre Ware zu verkaufen."
-    },
-    {
-      "frage": "Welche der folgenden Aussagen ist korrekt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Bei einem Preis von 220 € ist der Nachfrageüberhang am größten",
-        "Bei einem Preis von 260 € ist der Angebotsüberhang am größten",
-        "Bei einem Preis von 160 € ist der Nachfrageüberhang am größten",
-        "Bei einem Preis von 240 € ist der Nachfrageüberhang am größten"
-      ],
-      "loesung": "Bei einem Preis von 260 € ist der Angebotsüberhang am größten",
-      "erklaerung": "Bei einem Preis von 260 € übersteigt das Angebot die Nachfrage am stärksten, was einen großen Angebotsüberhang erzeugt."
-    }
-  ],
-  "02_Problematik_Butterberg_und_Milchsee_geloest.pdf": [
-    {
-      "frage": "Welche der folgenden Aussagen beschreibt korrekt die Auswirkung der Festlegung von Mindestpreisen in der Landwirtschaft?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Es entsteht ein dauerhafter Angebotsüberhang, da mehr angeboten wird, als nachgefragt.",
-        "Es entsteht ein dauerhafter Nachfrageüberhang, da weniger angeboten wird, als nachgefragt.",
-        "Es entsteht ein dauerhafter Angebotsüberhang, da weniger angeboten wird, als nachgefragt.",
-        "Es entsteht ein dauerhafter Nachfrageüberhang, da mehr angeboten wird, als nachgefragt."
-      ],
-      "loesung": "Es entsteht ein dauerhafter Angebotsüberhang, da mehr angeboten wird, als nachgefragt.",
-      "erklaerung": "Der Mindestpreis ist über dem Gleichgewichtspreis, was zu einem Überschuss führt, da die Anbieter mehr produzieren, als der Markt nachfragen kann."
-    },
-    {
-      "frage": "Welche der folgenden Maßnahmen ist ein Marktkonformes Eingriff, der die Angebotskurve nach rechts verschiebt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Subventionen für Erzeuger",
-        "Verbrauchssteuern/Abgaben auf das Gut",
-        "Aufklärungs- oder Werbekampagnen",
-        "Festlegung von Mindestpreisen"
-      ],
-      "loesung": "Subventionen für Erzeuger",
-      "erklaerung": "Subventionen senken die Produktionskosten, was dazu führt, dass mehr angeboten wird, was die Angebotskurve nach rechts verschiebt."
-    },
-    {
-      "frage": "Welche der folgenden Aussagen ist korrekt, was den Marktpreis und die Menge an Milch betrifft, wenn der Mindestpreis festgelegt wird?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Der Marktpreis sinkt, und die Menge steigt.",
-        "Der Marktpreis steigt, und die Menge sinkt.",
-        "Der Marktpreis bleibt unverändert, und die Menge steigt.",
-        "Der Marktpreis steigt, und die Menge steigt."
-      ],
-      "loesung": "Der Marktpreis steigt, und die Menge steigt.",
-      "erklaerung": "Da der Mindestpreis über dem Gleichgewichtspreis liegt, wird mehr angeboten, was zu einem Überschuss führt, und der Marktpreis wird tendenziell höher."
-    },
-    {
-      "frage": "Welche der folgenden Aussagen ist korrekt, was den Marktpreis und die Menge an Milch betrifft, wenn ein Höchstpreis festgelegt wird?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Der Marktpreis sinkt, und die Menge steigt.",
-        "Der Marktpreis steigt, und die Menge sinkt.",
-        "Der Marktpreis bleibt unverändert, und die Menge sinkt.",
-        "Der Marktpreis steigt, und die Menge steigt."
-      ],
-      "loesung": "Der Marktpreis sinkt, und die Menge sinkt.",
-      "erklaerung": "Da der Höchstpreis unter dem Gleichgewichtspreis liegt, wird weniger angeboten, was zu einem Nachfrageüberhang führt, und der Marktpreis wird tendenziell niedriger."
-    },
-    {
-      "frage": "Welcher der folgenden Marktkonformen Eingriffe würde die Nachfragekurve nach rechts verschieben?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Subventionen für Erzeuger",
-        "Verbrauchssteuern/Abgaben auf das Gut",
-        "Aufklärungs- oder Werbekampagnen",
-        "Festlegung von Mindestpreisen"
-      ],
-      "loesung": "Aufklärungs- oder Werbekampagnen",
-      "erklaerung": "Aufklärungs- oder Werbekampagnen beeinflussen die Nachfrage, indem sie die Nachfrage der Konsumenten steigern."
-    },
-    {
-      "frage": "Was ist die Auswirkung von Verbrauchssteuern/Abgaben auf das Gut auf den Marktpreis und die Menge an Milch?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Marktpreis steigt, und die Menge sinkt.",
-      "erklaerung": "Verbrauchssteuern/Abgaben auf das Gut erhöhen die Kosten der Anbieter, was die Angebotskurve nach oben verschiebt. Dies führt zu einem höheren Marktpreis und einer geringeren Menge."
-    },
-    {
-      "frage": "Welche der folgenden Aussagen ist korrekt, was den Marktpreis und die Menge an Milch betrifft, wenn Subventionen für Erzeuger festgelegt werden?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Der Marktpreis sinkt, und die Menge steigt.",
-        "Der Marktpreis steigt, und die Menge sinkt.",
-        "Der Marktpreis bleibt unverändert, und die Menge steigt.",
-        "Der Marktpreis steigt, und die Menge steigt."
-      ],
-      "loesung": "Der Marktpreis sinkt, und die Menge steigt.",
-      "erklaerung": "Subventionen senken die Produktionskosten, was die Angebotskurve nach unten verschiebt und zu einem niedrigeren Marktpreis und einer höheren Menge führt."
-    },
-    {
-      "frage": "Welcher der folgenden Marktkonformen Eingriffe würde die Angebotskurve nach unten verschieben?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Subventionen für Erzeuger",
-        "Verbrauchssteuern/Abgaben auf das Gut",
-        "Aufklärungs- oder Werbekampagnen",
-        "Festlegung von Mindestpreisen"
-      ],
-      "loesung": "Subventionen für Erzeuger",
-      "erklaerung": "Subventionen senken die Produktionskosten, was die Angebotskurve nach unten verschiebt."
-    }
-  ],
-  "03_Erarbeitung_Marktformen_geloest.pdf": [
-    {
-      "frage": "Welche Marktform tritt auf, wenn viele Anbieter und wenige Nachfrager existieren und die Nachfrager die Marktmacht besitzen?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Nachfrageoligopol",
-        "Nachfragemonopol",
-        "Angebotsoligopol",
-        "Angebotsmonopol"
-      ],
-      "loesung": "Nachfrageoligopol",
-      "erklaerung": "In dieser Situation haben die wenigen Nachfrager die Marktmacht, da sie nur wenige Anbieter haben, die sie beeinflussen können."
-    },
-    {
-      "frage": "Was charakterisiert ein zweiseitiges Polypol im Kontext der Marktformen?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Viele Anbieter und viele Nachfrager",
-        "Viele Anbieter und wenige Nachfrager",
-        "wenige Anbieter und viele Nachfrager",
-        "wenige Anbieter und wenige Nachfrager"
-      ],
-      "loesung": "Viele Anbieter und viele Nachfrager",
-      "erklaerung": "Ein zweiseitiges Polypol ist gekennzeichnet durch viele Anbieter und viele Nachfrager, wobei die Machtverhältnisse ausgeglichen sind."
-    },
-    {
-      "frage": "In welcher Marktform haben die Anbieter die Marktmacht, wenn es viele Nachfrager und wenige Anbieter gibt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Nachfrageoligopol",
-        "Nachfragemonopol",
-        "Angebotsoligopol",
-        "Angebotsmonopol"
-      ],
-      "loesung": "Angebotsoligopol",
-      "erklaerung": "Die wenigen Anbieter haben hier die Marktmacht, da sie nur wenige Nachfrager haben, die sie beeinflussen können."
-    },
-    {
-      "frage": "Welche Marktform tritt auf, wenn es viele Anbieter und viele Nachfrager gibt und die Marktmacht ausgeglichen ist?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Nachfrageoligopol",
-        "Nachfragemonopol",
-        "Angebotsoligopol",
-        "Polypol"
-      ],
-      "loesung": "Polypol",
-      "erklaerung": "In einem Polypol gibt es viele Anbieter und viele Nachfrager, wobei die Marktmacht ausgeglichen ist."
-    },
-    {
-      "frage": "Was bedeutet es, dass eine Marktform ausgeglichen ist?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Die Marktmacht ist auf beiden Seiten gleich verteilt, sodass keine Seite eine überlegene Position hat.",
-      "erklaerung": "Ausgeglichene Marktmacht bedeutet, dass die Machtverhältnisse auf beiden Seiten gleich sind, sodass keine Seite eine strukturelle Überlegenheit besitzt."
-    },
-    {
-      "frage": "Welche Marktform tritt auf, wenn es viele Anbieter und viele Nachfrager gibt und beide Seiten gleich viel Marktmacht besitzen?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Nachfrageoligopol",
-        "Nachfragemonopol",
-        "Angebotsoligopol",
-        "Polypol"
-      ],
-      "loesung": "Polypol",
-      "erklaerung": "In einem Polypol gibt es viele Anbieter und viele Nachfrager, wobei die Marktmacht ausgeglichen ist."
-    },
-    {
-      "frage": "In welcher Marktform haben die Nachfrager die Marktmacht, wenn es viele Anbieter und wenige Nachfrager gibt?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Nachfrageoligopol",
-        "Nachfragemonopol",
-        "Angebotsoligopol",
-        "Angebotsmonopol"
-      ],
-      "loesung": "Nachfragemonopol",
-      "erklaerung": "Die wenigen Nachfrager haben hier die Marktmacht, da sie nur wenige Anbieter haben, die sie beeinflussen können."
-    },
-    {
-      "frage": "Was ist die charakteristische Merkmale eines zweiseitigen Monopols?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Es gibt einen Anbieter auf einer Seite und einen Nachfrager auf der anderen Seite, wobei beide Seiten die Marktmacht besitzen.",
-      "erklaerung": "In einem zweiseitigen Monopol gibt es einen Anbieter auf einer Seite und einen Nachfrager auf der anderen Seite, wobei beide Seiten die Marktmacht haben."
+      "loesung": "Datenumfang, insbesondere Bildschirmaufnahmen",
+      "erklaerung": "Der Datenumfang, insbesondere die Bildschirmaufnahmen, müssen auf Erforderlichkeit geprüft werden."
     }
   ],
   "Bild (1).png": [
     {
-      "frage": "Welche der folgenden Komponenten sind in einem typischen Systemintegrationsszenario häufig anzutreffen?",
+      "frage": "Welche der folgenden Komponenten ist nicht Teil der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "Datenbanken",
-        "Webserver",
-        "Drucker",
-        "Sicherheitssysteme"
+        "A) Netzwerke",
+        "B) Software",
+        "C) Hardware",
+        "D) Kaffeemaschine"
       ],
-      "loesung": "Datenbanken, Webserver, Drucker",
-      "erklaerung": "Datenbanken und Webserver sind grundlegende Bestandteile von Systemintegrationsszenarien, während Drucker und Sicherheitssysteme ebenfalls häufig vorkommen."
+      "loesung": "D) Kaffeemaschine",
+      "erklaerung": "Die Kaffeemaschine ist nicht technisch relevant für die Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Technologien wird in der Systemintegration am häufigsten verwendet?",
+      "frage": "Welche Methode wird am häufigsten in der Systemintegration verwendet, um die Kompatibilität verschiedener Systeme zu gewährleisten?",
       "typ": "multiple_choice",
       "optionen": [
-        "Java",
-        "SQL",
-        "HTML",
-        "REST"
+        "A) API-Integration",
+        "B) Manuelle Konfiguration",
+        "C) Einzelne Protokolle",
+        "D) USB-Verbindungen"
       ],
-      "loesung": "REST",
-      "erklaerung": "REST (Representational State Transfer) ist eine weit verbreitete Architektur, die in der Systemintegration häufig eingesetzt wird."
+      "loesung": "A) API-Integration",
+      "erklaerung": "API-Integration ist eine effiziente Methode zur Gewährleistung der Kompatibilität."
     },
     {
-      "frage": "Welche der folgenden Tools wird in der Systemintegration zur Debugging- und Fehlerdiagnose häufig verwendet?",
+      "frage": "Welche der folgenden ist eine wichtige Prüfungsfrage in der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "Wireshark",
-        "Jira",
-        "Git",
-        "Postman"
+        "A) Wie man Kaffee zubereitet",
+        "B) Wie man ein neues System in einen bestehenden Systemkatalog integriert",
+        "C) Wie man einen Computer repariert",
+        "D) Wie man eine Tagesordnung erstellt"
       ],
-      "loesung": "Wireshark",
-      "erklaerung": "Wireshark ist ein Netzwerkprotokollanalyse-Tool, das in der Fehlerdiagnose und -analyse häufig eingesetzt wird."
+      "loesung": "B) Wie man ein neues System in einen bestehenden Systemkatalog integriert",
+      "erklaerung": "Diese Frage bezieht sich auf den zentralen Prozess der Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Methoden wird in der Systemintegration zur Datenintegration und -verarbeitung verwendet?",
+      "frage": "Welche der folgenden ist ein wichtiger Schritt in der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "ETL",
-        "API",
-        "DNS",
-        "SSL"
+        "A) Das Anfassen von Elektronikbauteilen",
+        "B) Die Überprüfung der Kompatibilität",
+        "C) Die persönliche Arbeit mit dem Kaffee",
+        "D) Die Herstellung von Kaffeezubereitungen"
       ],
-      "loesung": "ETL",
-      "erklaerung": "ETL (Extract, Transform, Load) ist eine Methode zur Datenintegration und -verarbeitung in der Systemintegration."
+      "loesung": "B) Die Überprüfung der Kompatibilität",
+      "erklaerung": "Die Überprüfung der Kompatibilität ist ein wesentlicher Schritt in der Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Sicherheitstechnologien ist wichtig in der Systemintegration?",
+      "frage": "Welche der folgenden ist ein wichtiges Ziel der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "TLS",
-        "SSH",
-        "FTP",
-        "HTTP"
+        "A) Die Kaffeeproduktion",
+        "B) Die Optimierung der Systemeffizienz",
+        "C) Die persönliche Arbeit",
+        "D) Die persönliche Arbeit mit dem Kaffee"
       ],
-      "loesung": "TLS, SSH",
-      "erklaerung": "TLS (Transport Layer Security) und SSH (Secure Shell) sind wichtige Sicherheitstechnologien in der Systemintegration."
+      "loesung": "B) Die Optimierung der Systemeffizienz",
+      "erklaerung": "Die Optimierung der Systemeffizienz ist ein wichtiges Ziel der Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Konzepte ist wichtig in der Systemintegration?",
+      "frage": "Welche der folgenden ist ein wichtiger Aspekt der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "Modularität",
-        "Scalabilität",
-        "Verfügbarkeit",
-        "Sicherheit"
+        "A) Die persönliche Arbeit mit dem Kaffee",
+        "B) Die Sicherstellung der Datenübertragung",
+        "C) Die persönliche Arbeit",
+        "D) Die Kaffeeproduktion"
       ],
-      "loesung": "Modularität, Scalabilität, Verfügbarkeit, Sicherheit",
-      "erklaerung": "Alle genannten Konzepte sind wichtig in der Systemintegration, um flexibles, skalierbares und sicheres System zu bauen."
+      "loesung": "B) Die Sicherstellung der Datenübertragung",
+      "erklaerung": "Die Sicherstellung der Datenübertragung ist ein wichtiger Aspekt der Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Technologien ist wichtig für die Kommunikation zwischen verschiedenen Systemen in der Systemintegration?",
+      "frage": "Welche der folgenden ist ein wichtiger Schritt in der Systemintegration?",
       "typ": "multiple_choice",
       "optionen": [
-        "MQTT",
-        "MQ",
-        "SMTP",
-        "IMAP"
+        "A) Das Anfassen von Elektronikbauteilen",
+        "B) Die Überprüfung der Kompatibilität",
+        "C) Die persönliche Arbeit",
+        "D) Die Herstellung von Kaffeezubereitungen"
       ],
-      "loesung": "MQTT, MQ",
-      "erklaerung": "MQTT (Message Queuing Telemetry Transport) und MQ (Message Queuing) sind wichtige Technologien zur Kommunikation zwischen verschiedenen Systemen."
+      "loesung": "B) Die Überprüfung der Kompatibilität",
+      "erklaerung": "Die Überprüfung der Kompatibilität ist ein wesentlicher Schritt in der Systemintegration."
     },
     {
-      "frage": "Welche der folgenden Aufgaben gehört zu den Aufgaben eines Fachinformatikers für Systemintegration?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Implementierung von ETL-Prozessen, Integration von Web- und Mobile Applications, Implementierung von Sicherheitssystemen, Konfiguration von Netzwerken und Druckern, Implementierung von API-Interfaces.",
-      "erklaerung": "Diese Aufgaben sind typisch für den Job eines Fachinformatikers für Systemintegration."
+      "frage": "Welche der folgenden ist ein wichtiger Aspekt der Systemintegration?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A) Die persönliche Arbeit mit dem Kaffee",
+        "B) Die Sicherstellung der Datenübertragung",
+        "C) Die persönliche Arbeit",
+        "D) Die Kaffeeproduktion"
+      ],
+      "loesung": "B) Die Sicherstellung der Datenübertragung",
+      "erklaerung": "Die Sicherstellung der Datenübertragung ist ein wichtiger Aspekt der Systemintegration."
+    },
+    {
+      "frage": "Welche der folgenden ist ein wichtiger Schritt in der Systemintegration?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A) Das Anfassen von Elektronikbauteilen",
+        "B) Die Überprüfung der Kompatibilität",
+        "C) Die persönliche Arbeit",
+        "D) Die Herstellung von Kaffeezubereitungen"
+      ],
+      "loesung": "B) Die Überprüfung der Kompatibilität",
+      "erklaerung": "Die Überprüfung der Kompatibilität ist ein wesentlicher Schritt in der Systemintegration."
+    },
+    {
+      "frage": "Welche der folgenden ist ein wichtiger Aspekt der Systemintegration?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "A) Die persönliche Arbeit mit dem Kaffee",
+        "B) Die Sicherstellung der Datenübertragung",
+        "C) Die persönliche Arbeit",
+        "D) Die Kaffeeproduktion"
+      ],
+      "loesung": "B) Die Sicherstellung der Datenübertragung",
+      "erklaerung": "Die Sicherstellung der Datenübertragung ist ein wichtiger Aspekt der Systemintegration."
     }
   ],
   "Bild (2).png": [
     {
-      "frage": "Welche der folgenden Technologien wird in der Systemintegration häufig verwendet, um Kommunikation zwischen verschiedenen Anwendungen sicherzustellen?",
+      "frage": "Welche der folgenden Komponenten gehört nicht zu den grundlegenden Bestandteilen eines Server-Systems?",
       "typ": "multiple_choice",
       "optionen": [
-        "Sicherheitsprotokolle",
-        "Webseiten",
-        "Tastatur",
-        "Maus"
+        "Prozessor",
+        "Speicher",
+        "Lautsprecher",
+        "Speicherkarte"
       ],
-      "loesung": "Sicherheitsprotokolle",
-      "erklaerung": "Sicherheitsprotokolle wie SSL/TLS sind wichtig für die sichere Kommunikation zwischen Anwendungen."
+      "loesung": "Lautsprecher",
+      "erklaerung": "Lautsprecher sind keine Standardkomponenten eines Server-Systems."
     },
     {
-      "frage": "Welche der folgenden Komponenten gehört zu einem typischen Systemintegrationsprojekt?",
+      "frage": "Welche Netzwerktechnologie wird am häufigsten in Systemintegrationen für die schnelle Datenübertragung zwischen Servern und Workstations verwendet?",
       "typ": "multiple_choice",
       "optionen": [
-        "Kaffeemaschine",
-        "Drucker",
-        "Rechner",
-        "Klimaanlage"
+        "Ethernet",
+        "Wi-Fi",
+        "Bluetooth",
+        "4G"
       ],
-      "loesung": "Rechner",
-      "erklaerung": "Rechner sind die Hauptkomponenten in Systemintegration, da sie die Datenverarbeitung und -übertragung ermöglichen."
+      "loesung": "Ethernet",
+      "erklaerung": "Ethernet ist eine stabile und schnelle Netzwerktechnologie für internes Netzwerkverbinden in Unternehmen."
     },
     {
-      "frage": "Welche der folgenden Tools wird in der Systemintegration häufig verwendet, um die Datenstruktur einer Anwendung zu analysieren?",
+      "frage": "Welche der folgenden Software-Tools wird in der Systemintegration zur Überwachung und Steuerung von Systemen am häufigsten eingesetzt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Word",
-        "Excel",
         "Notepad",
-        "Wireshark"
+        "PowerPoint",
+        "PRTG Network Monitor",
+        "Excel"
       ],
-      "loesung": "Wireshark",
-      "erklaerung": "Wireshark ist ein Netzwerkprotokollanalysewerkzeug, das in der Analyse der Datenstruktur von Anwendungen verwendet wird."
+      "loesung": "PRTG Network Monitor",
+      "erklaerung": "PRTG Network Monitor ist ein spezialisiertes Tool zur Netzwerkanalyse und -überwachung."
     },
     {
-      "frage": "Welche der folgenden Methoden wird in der Systemintegration verwendet, um Fehler in der Software zu identifizieren?",
+      "frage": "Welche der folgenden Konzepte ist wichtig bei der Implementierung von High-Availability-Systemen?",
       "typ": "multiple_choice",
       "optionen": [
-        "Reinigung",
-        "Testen",
-        "Fensterputzen",
-        "Schraubenzwitscher"
+        "Loadbalancing",
+        "Failover",
+        "Firewall",
+        "Antivirus"
       ],
-      "loesung": "Testen",
-      "erklaerung": "Testen ist ein wesentlicher Schritt in der Systemintegration, um Fehler und Defekte in der Software zu identifizieren."
+      "loesung": "Failover",
+      "erklaerung": "Failover ist ein Konzept, bei dem ein System bei Ausfall des primären Systems auf ein Backup-System umschaltet."
     },
     {
-      "frage": "Welche der folgenden Technologien wird in der Systemintegration häufig verwendet, um den Datenfluss zwischen verschiedenen Systemen zu steuern?",
+      "frage": "Welche der folgenden Sicherheitsmaßnahmen ist am effektivsten, um unbefugten Zugriff auf ein System zu verhindern?",
       "typ": "multiple_choice",
       "optionen": [
-        "Taschentücher",
-        "Drucker",
-        "Router",
-        "Stapelsortierer"
+        "Antivirus",
+        "Firewall",
+        "Passwortmanagement",
+        "Physische Sicherheit"
       ],
-      "loesung": "Router",
-      "erklaerung": "Router steuern den Datenfluss zwischen verschiedenen Netzwerken und Systemen."
+      "loesung": "Passwortmanagement",
+      "erklaerung": "Passwortmanagement hilft, schwache Passwörter zu vermeiden und die Authentifizierung sicherer zu gestalten."
     },
     {
-      "frage": "Welche der folgenden Schritte gehört zu einem Systemintegrationsskript?",
+      "frage": "Welche der folgenden Komponenten gehört zu den Hardware-Teilen eines Servers?",
       "typ": "multiple_choice",
       "optionen": [
-        "Kaffee trinken",
-        "Rechnern aufräumen",
-        "Fenster putzen",
-        "Kommunikationstechnologien einrichten"
+        "Monitor",
+        "Tastatur",
+        "Lautsprecher",
+        "Speicherkarte"
       ],
-      "loesung": "Kommunikationstechnologien einrichten",
-      "erklaerung": "Kommunikationstechnologien einrichten sind ein wesentlicher Teil des Systemintegrationsskripts."
+      "loesung": "Speicherkarte",
+      "erklaerung": "Die Speicherkarte ist ein Teil der Hardware eines Servers, der für den Speicherbedarf zuständig ist."
     },
     {
-      "frage": "Welche der folgenden Methoden wird in der Systemintegration verwendet, um die Leistungsfähigkeit eines Systems zu verbessern?",
+      "frage": "Welche der folgenden Technologien wird in der Systemintegration für die Redundanz von Netzwerkkabeln eingesetzt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Fenster putzen",
-        "Rechnern aufräumen",
-        "Kaffee trinken",
-        "Optimierung der Software"
+        "Kabeldurchmesser",
+        "Patchkabel",
+        "Kreuzkabel",
+        "Link Aggregation"
       ],
-      "loesung": "Optimierung der Software",
-      "erklaerung": "Die Optimierung der Software ist eine wichtige Methode, um die Leistungsfähigkeit eines Systems zu verbessern."
+      "loesung": "Link Aggregation",
+      "erklaerung": "Link Aggregation ermöglicht es, mehrere Netzwerkkabel zu aggregieren, um eine Redundanz zu schaffen."
     },
     {
-      "frage": "Welche der folgenden Technologien wird in der Systemintegration häufig verwendet, um die Datenbankstruktur einer Anwendung zu analysieren?",
+      "frage": "Welche der folgenden Software-Tools wird in der Systemintegration häufig zur Verwaltung von Firewalls eingesetzt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Taschenlampe",
-        "Drucker",
-        "Datenbank-Tools",
-        "Stapelsortierer"
+        "Notepad",
+        "PowerShell",
+        "PRTG Network Monitor",
+        "Snort"
       ],
-      "loesung": "Datenbank-Tools",
-      "erklaerung": "Datenbank-Tools sind speziell für die Analyse der Datenbankstruktur einer Anwendung entwickelt."
+      "loesung": "Snort",
+      "erklaerung": "Snort ist ein Open-Source-Intrusion Detection System (IDS), das häufig zur Verwaltung von Firewalls eingesetzt wird."
+    },
+    {
+      "frage": "Welche der folgenden Konzepte ist wichtig bei der Implementierung von Loadbalancing?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Failover",
+        "High-Availability",
+        "Loadbalancing",
+        "Redundanz"
+      ],
+      "loesung": "Loadbalancing",
+      "erklaerung": "Loadbalancing ist ein Konzept, bei dem der Netzwerkverkehr auf mehrere Server aufgeteilt wird, um den Lastdruck zu reduzieren."
+    },
+    {
+      "frage": "Welche der folgenden Sicherheitsmaßnahmen ist am effektivsten, um unbefugten Zugriff auf ein System zu verhindern?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Passwortmanagement",
+      "erklaerung": "Passwortmanagement hilft, schwache Passwörter zu vermeiden und die Authentifizierung sicherer zu gestalten."
     }
   ],
   "Bild.png": [
     {
-      "frage": "Welche der folgenden Komponenten sind typischerweise im Systemintegrationsschwerpunkt des FSi-Moduls zu finden?",
+      "frage": "Welche der folgenden Komponenten sind typischerweise in einem Systemintegrationsszenario zu finden?",
       "typ": "multiple_choice",
       "optionen": [
-        "Netzwerke",
-        "Werkzeuge zur Systemadministration",
-        "Softwareentwicklung",
-        "Datenbanken"
+        "Router",
+        "Lesezeichen",
+        "Drucker",
+        "Tastatur"
       ],
-      "loesung": "Netzwerke, Werkzeuge zur Systemadministration",
-      "erklaerung": "Netzwerke und Werkzeuge zur Systemadministration sind typischerweise im FSi-Modul zu finden, während Softwareentwicklung und Datenbanken eher im Modul für Softwareentwicklung und Datenbanken zu finden sind."
+      "loesung": "Router, Drucker",
+      "erklaerung": "Router und Drucker sind typischerweise in einem Systemintegrationsszenario zu finden, während Lesezeichen und Tastatur nicht relevant sind."
     },
     {
-      "frage": "Welche der folgenden Tools wird häufig in der Systemintegration verwendet?",
+      "frage": "Welche der folgenden Tools werden häufig in der Systemintegration verwendet?",
       "typ": "multiple_choice",
       "optionen": [
         "Wireshark",
-        "Nmap",
-        "Visual Studio Code",
-        "Jira"
+        "Notepad++",
+        "Paint",
+        "Powershell"
       ],
-      "loesung": "Wireshark, Nmap",
-      "erklaerung": "Wireshark und Nmap sind häufig in der Systemintegration verwendet, um Netzwerkprobleme zu diagnose und Systeme zu scannen. Visual Studio Code und Jira sind eher Tools für Softwareentwicklung und Projektmanagement."
-    },
-    {
-      "frage": "Welche der folgenden Aufgaben gehört nicht zum Bereich der Systemintegration?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Netzwerkinstallation",
-        "Softwareentwicklung",
-        "Systemadministration",
-        "Datenbankadministration"
-      ],
-      "loesung": "Softwareentwicklung",
-      "erklaerung": "Die Aufgaben Netzwerkinstallation, Systemadministration und Datenbankadministration gehören zum Bereich der Systemintegration, während Softwareentwicklung eher zu einem anderen Modul gehört."
-    },
-    {
-      "frage": "Welche der folgenden Prinzipien ist wichtig für die Systemintegration?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Modularität",
-        "Kleinteilung",
-        "Kommunikation",
-        "Vereinheitlichung"
-      ],
-      "loesung": "Modularität, Kommunikation, Vereinheitlichung",
-      "erklaerung": "Modularität, Kommunikation und Vereinheitlichung sind wichtige Prinzipien für die Systemintegration. Kleinteilung ist eher ein Prinzip aus dem Modul Softwareentwicklung."
-    },
-    {
-      "frage": "Welche der folgenden Tools wird in der Systemintegration zur Überwachung und Analyse von Netzwerken verwendet?",
-      "typ": "multiple_choice",
-      "optionen": [
-        "Ping",
-        "Traceroute",
-        "Wireshark",
-        "Nmap"
-      ],
-      "loesung": "Wireshark",
-      "erklaerung": "Wireshark wird zur Analyse von Netzwerkdaten verwendet, während Ping, Traceroute und Nmap zur Netzwerkdiagnose verwendet werden."
-    },
-    {
-      "frage": "Welche der folgenden Aufgaben gehört nicht zum Bereich der Systemintegration?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Softwareentwicklung",
-      "erklaerung": "Softwareentwicklung ist nicht Teil des FSi-Moduls, sondern gehört zu einem anderen Modul."
+      "loesung": "Wireshark, Powershell",
+      "erklaerung": "Wireshark und Powershell sind häufig in der Systemintegration verwendet, während Notepad++ und Paint weniger relevant sind."
     },
     {
       "frage": "Welche der folgenden Netzwerkprotokolle werden in der Systemintegration häufig verwendet?",
@@ -800,266 +610,770 @@
         "SMTP",
         "TCP/IP"
       ],
-      "loesung": "HTTP, FTP, SMTP, TCP/IP",
-      "erklaerung": "HTTP, FTP, SMTP und TCP/IP werden in der Systemintegration häufig verwendet, um Daten zu übertragen und Netzwerke zu steuern."
+      "loesung": "HTTP, FTP, TCP/IP",
+      "erklaerung": "HTTP, FTP und TCP/IP werden in der Systemintegration häufig verwendet, während SMTP eher im E-Mail-System zu finden ist."
     },
     {
-      "frage": "Welche der folgenden Tools wird in der Systemintegration zur Verwaltung von Benutzern und Berechtigungen verwendet?",
+      "frage": "Welche der folgenden Befehle wird in Windows-Systemen verwendet, um den Status der Netzwerkverbindungen zu überprüfen?",
       "typ": "multiple_choice",
       "optionen": [
-        "Active Directory",
-        "LDAP",
-        "NFS",
-        "SMB"
+        "ping",
+        "ipconfig",
+        "nslookup",
+        "tracert"
       ],
-      "loesung": "Active Directory, LDAP",
-      "erklaerung": "Active Directory und LDAP werden in der Systemintegration zur Verwaltung von Benutzern und Berechtigungen verwendet, während NFS und SMB eher zu Dateisystemen gehören."
+      "loesung": "ipconfig",
+      "erklaerung": "Der Befehl ipconfig wird in Windows-Systemen verwendet, um den Status der Netzwerkverbindungen zu überprüfen."
+    },
+    {
+      "frage": "Welche der folgenden Technologien sind wichtig für die Systemintegration?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Docker",
+        "Kubernetes",
+        "SQL",
+        "HTML"
+      ],
+      "loesung": "Docker, Kubernetes",
+      "erklaerung": "Docker und Kubernetes sind wichtig für die Systemintegration, während SQL und HTML eher im Bereich der Datenbanken und Webentwicklung zu finden sind."
+    },
+    {
+      "frage": "Welche der folgenden Befehle wird in Linux-Systemen verwendet, um den Status der Netzwerkkarten zu überprüfen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "ping",
+        "ipconfig",
+        "ifconfig",
+        "nslookup"
+      ],
+      "loesung": "ifconfig",
+      "erklaerung": "Der Befehl ifconfig wird in Linux-Systemen verwendet, um den Status der Netzwerkkarten zu überprüfen."
+    },
+    {
+      "frage": "Welche der folgenden Konzepte sind wichtig für die Systemintegration?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "API",
+        "Schnittstelle",
+        "Datenbank",
+        "GUI"
+      ],
+      "loesung": "API, Schnittstelle",
+      "erklaerung": "API und Schnittstelle sind wichtig für die Systemintegration, während Datenbank und GUI eher im Bereich der Anwendungsentwicklung zu finden sind."
+    },
+    {
+      "frage": "Welche der folgenden Tools werden häufig in der Systemintegration verwendet, um Softwarepakete zu verwalten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Powershell",
+        "npm",
+        "pip",
+        "Docker"
+      ],
+      "loesung": "npm, pip",
+      "erklaerung": "npm und pip werden häufig in der Systemintegration verwendet, um Softwarepakete zu verwalten, während Powershell eher für Windows-Systeme und Docker für Containermanagement wichtig ist."
+    },
+    {
+      "frage": "Welche der folgenden Netzwerktopologien sind in der Systemintegration relevant?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Star",
+        "Ring",
+        "Bus",
+        "Knoten"
+      ],
+      "loesung": "Star, Ring",
+      "erklaerung": "Star und Ring sind in der Systemintegration relevant, während Bus eher im Bereich der Hardware zu finden ist."
+    },
+    {
+      "frage": "Welche der folgenden Aufgaben gehört in den Bereich der Systemintegration?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Die Integration von verschiedenen Softwarekomponenten in einheitliche Systeme, die Optimierung von Netzwerkverbindungen, das Einrichten von Sicherheitsmaßnahmen.",
+      "erklaerung": "Diese Aufgaben sind typisch für die Systemintegration."
     }
   ],
-  "Compliance_Triage_NB-204_Ausarbeitung 1.pdf": [
+  "01_Angebot_und_Nachfrage_geloest.pdf": [
     {
-      "frage": "Welche Punkte sind in der Ausarbeitung als ungeklärt bezeichnet, die vor dem Produktiv-Rollout geprüft werden müssen?",
+      "frage": "Welchen Preis bewirkt einen Nachfrageüberhang bei der Nachfrage nach Digitalkameras?",
       "typ": "multiple_choice",
       "optionen": [
-        "Zweck und Rechtsgrundlage",
-        "Datenumfang und Erforderlichkeit",
-        "Löschfristen",
-        "Zugriffsrechte",
-        "Beteiligungsrechte",
-        "Verantwortlichkeiten"
+        "160,00 €",
+        "220,00 €",
+        "240,00 €",
+        "280,00 €"
       ],
-      "loesung": "Zweck und Rechtsgrundlage, Datenumfang und Erforderlichkeit, Löschfristen, Zugriffsrechte, Beteiligungsrechte, Verantwortlichkeiten",
-      "erklaerung": "Alle genannten Punkte sind in der Ausarbeitung als ungeklärt bezeichnet und müssen vor dem Produktiv-Rollout geprüft werden."
+      "loesung": "160,00 €, 180,00 €, 200,00 €",
+      "erklaerung": "Bei diesen Preisen ist die nachgefragte Menge größer als die angebotene Menge."
     },
     {
-      "frage": "Welche Maßnahme würde der Ausbildungsbericht empfehlen, wenn die genannten Punkte noch nicht geklärt sind?",
+      "frage": "Welcher Preis ist der Gleichgewichtspreis für Digitalkameras?",
       "typ": "multiple_choice",
       "optionen": [
-        "Das Monitoring in einer kontrollierten technischen Testumgebung betreiben",
-        "Das Monitoring in der Produktion starten",
-        "Die technischen Fehler im Monitoring beheben",
-        "Die Arbeitnehmervertretung informieren"
+        "160,00 €",
+        "220,00 €",
+        "240,00 €",
+        "280,00 €"
       ],
-      "loesung": "Das Monitoring in einer kontrollierten technischen Testumgebung betreiben",
-      "erklaerung": "Die Empfehlung ist, dass das Monitoring in einer kontrollierten technischen Testumgebung betrieben werden sollte, um keine unnötigen Beschäftigtendaten produktiv zu verarbeiten."
+      "loesung": "220,00 €",
+      "erklaerung": "Hier ist die nachgefragte Menge gleich der angebotenen Menge."
     },
     {
-      "frage": "Welche Funktion stellt nach der Ausarbeitung einen besonders weitreichenden Eingriff in die Privatsphäre der Beschäftigten dar?",
+      "frage": "Was passiert mit dem Preis, wenn die nachgefragte Menge größer ist als die angebotene Menge?",
       "typ": "multiple_choice",
       "optionen": [
-        "Programmstarts",
-        "Nutzungszeiten",
-        "Bildschirmaufnahmen",
-        "Verarbeitung von E-Mail-Adressen"
+        "Der Preis bleibt gleich",
+        "Der Preis sinkt",
+        "Der Preis steigt",
+        "Es gibt keinen Anreiz zur Preisänderung"
       ],
-      "loesung": "Bildschirmaufnahmen",
-      "erklaerung": "Bildschirmaufnahmen werden als besonders weitreichend für die Privatsphäre der Beschäftigten bezeichnet."
+      "loesung": "Der Preis steigt",
+      "erklaerung": "Die Anbieter können den Preis erhöhen, ohne ihre Ware sitzen zu lassen."
     },
     {
-      "frage": "Welcher Aspekt wird in der Ausarbeitung besonders hervorgehoben, der vor dem Rollout geprüft werden muss?",
+      "frage": "Welche Menge wird im Gleichgewichtspreis von 220,00 € verkauft?",
       "typ": "multiple_choice",
       "optionen": [
-        "Technische Implementierung",
-        "Datenschutz und Rechtsfragen",
-        "Benutzerfreundlichkeit des Tools",
-        "Performance des Monitoring-Systems"
+        "200 Stück",
+        "250 Stück",
+        "300 Stück",
+        "500 Stück"
       ],
-      "loesung": "Datenschutz und Rechtsfragen",
-      "erklaerung": "Die Ausarbeitung betont, dass vor dem Rollout die Datenschutz- und Rechtsfragen gründlich geprüft werden müssen."
+      "loesung": "250 Stück",
+      "erklaerung": "Dies ist der Schnittpunkt der Nachfrage- und Angebotskurve."
     },
     {
-      "frage": "Welche Punkte sind in den Prüfpunkten 1 und 2 des Ticketsystems aufgelistet?",
+      "frage": "Welche Menge wird bei einem Preis von 260,00 € angeboten?",
       "typ": "multiple_choice",
       "optionen": [
-        "Zweck/Rechtsgrundlage und Datenumfang",
-        "Löschfristen und Zugriffsrechte",
-        "Beteiligungsrechte und Verantwortlichkeiten",
-        "Alle genannten Punkte"
+        "100 Stück",
+        "200 Stück",
+        "300 Stück",
+        "400 Stück"
       ],
-      "loesung": "Zweck/Rechtsgrundlage und Datenumfang, Löschfristen und Zugriffsrechte, Beteiligungsrechte und Verantwortlichkeiten",
-      "erklaerung": "In den Prüfpunkten 1 und 2 werden die genannten Punkte aufgelistet, die vor dem Rollout geprüft werden müssen."
+      "loesung": "500 Stück",
+      "erklaerung": "Hier ist die angebotene Menge größer als die nachgefragte Menge."
     },
     {
-      "frage": "Welche Empfehlung gibt der Ausbildungsbericht hinsichtlich der Bildschirmaufnahmen vor dem Rollout?",
+      "frage": "Was bewirkt einen Angebotüberhang bei der Nachfrage nach Digitalkameras?",
       "typ": "multiple_choice",
       "optionen": [
-        "Die Funktion soll aktiviert bleiben",
-        "Die Funktion soll deaktiviert oder technisch eingeschränkt werden",
-        "Die Funktion soll nur in der Testumgebung verwendet werden",
-        "Die Funktion soll nur für bestimmte Benutzer aktiviert werden"
+        "220,00 €",
+        "240,00 €",
+        "260,00 €",
+        "280,00 €"
       ],
-      "loesung": "Die Funktion soll deaktiviert oder technisch eingeschränkt werden",
-      "erklaerung": "Der Bericht empfiehlt, dass die Bildschirmaufnahmen vor dem Rollout geprüft und gegebenenfalls deaktiviert oder technisch eingeschränkt werden sollten."
+      "loesung": "240,00 €, 260,00 €, 280,00 €",
+      "erklaerung": "Bei diesen Preisen ist die angebotene Menge größer als die nachgefragte Menge."
     },
     {
-      "frage": "Was ist die Empfehlung des Ausbildungsberichts hinsichtlich des Produktiv-Rollouts?",
+      "frage": "Was passiert mit dem Preis, wenn die angebotene Menge größer ist als die nachgefragte Menge?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Der Preis steigt",
+        "Der Preis sinkt",
+        "Der Preis bleibt gleich",
+        "Es gibt keinen Anreiz zur Preisänderung"
+      ],
+      "loesung": "Der Preis sinkt",
+      "erklaerung": "Die Anbieter müssen den Preis senken, um ihre Ware zu verkaufen."
+    },
+    {
+      "frage": "Welche Menge wird bei einem Preis von 200,00 € nachgefragt?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "250 Stück",
+        "300 Stück",
+        "400 Stück",
+        "500 Stück"
+      ],
+      "loesung": "300 Stück",
+      "erklaerung": "Hier ist die nachgefragte Menge größer als die angebotene Menge."
+    },
+    {
+      "frage": "Welche Menge wird bei einem Preis von 180,00 € angeboten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "50 Stück",
+        "100 Stück",
+        "200 Stück",
+        "1000 Stück"
+      ],
+      "loesung": "100 Stück",
+      "erklaerung": "Hier ist die angebotene Menge größer als die nachgefragte Menge."
+    },
+    {
+      "frage": "Was ist der Preis, an dem die Nachfrage und der Angebot erreichen Gleichgewicht?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Rollout vorerst gestoppt, da Zweck/Rechtsgrundlage, Datenumfang, Löschfristen und Zugriffsrechte des Monitorings noch ungeklärt sind. Bitte Datenschutzbeauftragte:n und die zuständige Ansprechperson beim Kunden einbinden und vor der Produktivschaltung insbesondere die Erforderlichkeit der Bildschirmaufnahmen sowie das Lösch- und Berechtigungskonzept prüfen.",
-      "erklaerung": "Die Empfehlung ist, dass der Produktiv-Rollout vorerst gestoppt wird, bis die genannten Punkte geklärt sind."
+      "loesung": "220,00 €",
+      "erklaerung": "Hier ist die nachgefragte Menge gleich der angebotenen Menge."
     }
   ],
-  "Compliance_Triage_NB-204_Kurzfassung 1.pdf": [
+  "02_Problematik_Butterberg_und_Milchsee_geloest.pdf": [
     {
-      "frage": "Welche Punkte sind in der Kurzfassung als unklar genannt?",
+      "frage": "Welcher Marktprozess tritt auf, wenn der Mindestpreis für Milch künstlich hoch gehalten wird und mehr Milch angeboten wird, als der Markt nachfragt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Zweck und Rechtsgrundlage des Monitorings",
-        "Technische Funktionstüchtigkeit",
-        "Datenaufbewahrung und Löschfristen",
-        "Zugriffsrechte und Beteiligungsrechte"
+        "Angebotsüberhang",
+        "Nachfrageüberhang",
+        "Marktgleichgewicht",
+        "Knappheit"
       ],
-      "loesung": "Zweck und Rechtsgrundlage des Monitorings, Der Umfang der Datenerfassung, Es fehlen konkrete Löschfristen für die erhobenen Daten, Es ist offen, wer Zugriff auf die Monitoring-Daten hat, Mögliche Beteiligungsrechte einer Arbeitnehmervertretung müssen geklärt werden",
-      "erklaerung": "Es werden mehrere Punkte als unklar genannt, darunter Rechtsgrundlagen und Datenaufbewahrung."
+      "loesung": "Angebotsüberhang",
+      "erklaerung": "Der Mindestpreis ist über dem Gleichgewichtspreis und führt zu einem Angebot, das größer ist als die Nachfrage."
     },
     {
-      "frage": "Was empfiehlt der Produktiv-Rollout?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Produktiv-Rollout sollte zunächst gestoppt werden.",
-      "erklaerung": "Die Prüfung der Datenschutzaspekte und die Festlegung von Löschfristen und Zugriffsrechten sind notwendig, bevor der Rollout freigeschaltet werden kann."
-    },
-    {
-      "frage": "Welche Prüfpunkte werden im Ticketkommentar erwähnt?",
+      "frage": "Welche Folge hat die Festlegung von Mindestpreisen auf die Produzentenmotivation?",
       "typ": "multiple_choice",
       "optionen": [
-        "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit – besonders der Bildschirmaufnahmen – prüfen",
-        "Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten festlegen und Beteiligungsrechte prüfen",
-        "Technische Funktionstüchtigkeit aller Systeme prüfen",
-        "Implementierung neuer Software löschen"
+        "Produzenten werden effizienter",
+        "Produzenten werden weniger anreizt, effizient zu produzieren",
+        "Produzenten werden mehr anreizt, effizient zu produzieren",
+        "Produzenten werden weniger anreizt, Nachfrage zu erfüllen"
       ],
-      "loesung": "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit – besonders der Bildschirmaufnahmen – prüfen, Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten festlegen und Beteiligungsrechte prüfen",
-      "erklaerung": "Die Datenschutzaspekte und die Betriebsaspekte, insbesondere Löschfristen, Zugriffsrollen und Beteiligungsrechte, müssen geprüft werden."
+      "loesung": "Produzenten werden weniger anreizt, effizient zu produzieren",
+      "erklaerung": "Mindestpreise reduzieren den Anreiz zur Effizienz, da Produzenten mehr produzieren, als der Markt benötigt."
     },
     {
-      "frage": "Warum wurde der Produktiv-Rollout gestoppt?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Produktiv-Rollout wurde gestoppt, da noch keine Datenschutz, Datenumfang, Löschfristen und Zugriffsrechte geklärt sind.",
-      "erklaerung": "Die Freischaltung des Rollouts hängt von der Klärung der Datenschutzaspekte ab, insbesondere der Zweck, Rechtsgrundlage, Datenaufbewahrung und Zugriffsrechte."
-    },
-    {
-      "frage": "Welche Beteiligten sollten in die Prüfung einbezogen werden?",
+      "frage": "Welche der folgenden Maßnahmen ist ein marktkonformer Eingriff, der nicht direkt in den Preis einwirkt, sondern die Angebotsbedingungen verändert?",
       "typ": "multiple_choice",
       "optionen": [
-        "Datenschutzbeauftragte:n",
-        "Produktionsabteilung",
-        "Arbeitnehmervertretung",
-        "Technische Support",
-        "Marketingabteilung"
+        "Subventionen für Erzeuger",
+        "Verbrauchssteuern/Abgaben auf das Gut",
+        "Aufklärungs- oder Werbekampagnen",
+        "Mindestpreis"
       ],
-      "loesung": "Datenschutzbeauftragte:n, die zuständige Ansprechperson, Arbeitnehmervertretung",
-      "erklaerung": "Die Datenschutzbeauftragte:n und die zuständige Ansprechperson sollten in die Prüfung einbezogen werden, um sicherzustellen, dass alle Datenschutzaspekte beachtet werden. Arbeitnehmervertretung ist ebenfalls erwähnt."
+      "loesung": "Subventionen für Erzeuger",
+      "erklaerung": "Subventionen verändern die Produktionskosten und somit die Angebotskurve, ohne den Preis direkt zu beeinflussen."
     },
     {
-      "frage": "Welche spezifischen Datenschutzaspekte werden im Ticket erwähnt?",
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Verbrauchssteuern auf den Markt betrifft?",
       "typ": "multiple_choice",
       "optionen": [
-        "Zweck und Rechtsgrundlage",
-        "Datenaufbewahrung",
-        "Bildschirmaufnahmen",
-        "Zugriffsrechte",
-        "Technische Funktionstüchtigkeit"
+        "Die Nachfrage steigt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage fällt, der Marktpreis steigt, die Menge fällt",
+        "Die Nachfrage fällt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage steigt, der Marktpreis steigt, die Menge fällt"
       ],
-      "loesung": "Zweck und Rechtsgrundlage, Datenaufbewahrung, Bildschirmaufnahmen, Zugriffsrechte",
-      "erklaerung": "Es werden mehrere Datenschutzaspekte wie Zweck, Rechtsgrundlage, Datenaufbewahrung, Bildschirmaufnahmen und Zugriffsrechte erwähnt."
+      "loesung": "Die Nachfrage fällt, der Marktpreis steigt, die Menge fällt",
+      "erklaerung": "Verbrauchssteuern steigen die Kosten für den Verbraucher, was die Nachfrage reduziert und den Marktpreis steigern kann."
     },
     {
-      "frage": "Was ist der Hauptgrund für die Stopp des Produktiv-Rollouts?",
-      "typ": "offen",
-      "optionen": [],
-      "loesung": "Der Hauptgrund für die Stopp des Produktiv-Rollouts ist, dass noch keine Datenschutz, Datenaufbewahrung, Löschfristen und Zugriffsrechte geklärt sind.",
-      "erklaerung": "Die Freischaltung des Rollouts hängt von der Klärung der Datenschutzaspekte ab, insbesondere der Zweck, Rechtsgrundlage, Datenaufbewahrung und Zugriffsrechte."
+      "frage": "Was ist der Hauptunterschied zwischen marktkonformen Eingriffen und nicht marktkonformen Eingriffen wie Mindestpreisen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Marktkonforme Eingriffe beeinflussen den Preis, nicht marktkonforme nicht",
+        "Marktkonforme Eingriffe verändern die Rahmenbedingungen, nicht marktkonforme nicht",
+        "Marktkonforme Eingriffe reduzieren die Nachfrage, nicht marktkonforme nicht",
+        "Marktkonforme Eingriffe verändern die Angebotskurve, nicht marktkonforme nicht"
+      ],
+      "loesung": "Marktkonforme Eingriffe verändern die Rahmenbedingungen, nicht marktkonforme nicht",
+      "erklaerung": "Marktkonforme Eingriffe beeinflussen die Rahmenbedingungen, nicht den Preis direkt, während nicht marktkonforme Eingriffe den Preis beeinflussen."
     },
     {
-      "frage": "Welche weiteren Punkte sollten nach der Klärung der Datenschutzaspekte berücksichtigt werden?",
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Aufklärungs- oder Werbekampagnen auf den Markt betrifft?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Die Nachfrage fällt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage fällt, der Marktpreis steigt, die Menge fällt",
+        "Die Nachfrage steigt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage steigt, der Marktpreis steigt, die Menge steigt"
+      ],
+      "loesung": "Die Nachfrage steigt, der Marktpreis steigt, die Menge steigt",
+      "erklaerung": "Aufklärungs- oder Werbekampagnen steigern die Nachfrage, was den Marktpreis und die Menge steigern kann."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Subventionen auf den Markt betrifft?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Die Nachfrage fällt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage fällt, der Marktpreis steigt, die Menge fällt",
+        "Die Nachfrage steigt, der Marktpreis fällt, die Menge fällt",
+        "Die Nachfrage steigt, der Marktpreis fällt, die Menge steigt"
+      ],
+      "loesung": "Die Nachfrage steigt, der Marktpreis fällt, die Menge steigt",
+      "erklaerung": "Subventionen reduzieren die Produktionskosten, was die Nachfrage steigert und den Marktpreis senkt, während die Menge steigt."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Höchstpreisen auf den Markt betrifft?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Der Angebotsüberhang entsteht, weil mehr angeboten wird, als nachgefragt",
+        "Der Nachfrageüberhang entsteht, weil mehr nachgefragt wird, als angeboten",
+        "Der Angebotsüberhang entsteht, weil weniger angeboten wird, als nachgefragt",
+        "Der Nachfrageüberhang entsteht, weil weniger nachgefragt wird, als angeboten"
+      ],
+      "loesung": "Der Nachfrageüberhang entsteht, weil mehr nachgefragt wird, als angeboten",
+      "erklaerung": "Höchstpreise unter dem Gleichgewichtspreis führen zu einer Nachfrageüberhang, da mehr nachgefragt wird, als angeboten."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Mindestpreisen auf den Markt betrifft?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Der Angebotsüberhang entsteht, weil weniger angeboten wird, als nachgefragt",
+        "Der Nachfrageüberhang entsteht, weil weniger nachgefragt wird, als angeboten",
+        "Der Angebotsüberhang entsteht, weil mehr angeboten wird, als nachgefragt",
+        "Der Nachfrageüberhang entsteht, weil mehr nachgefragt wird, als angeboten"
+      ],
+      "loesung": "Der Angebotsüberhang entsteht, weil mehr angeboten wird, als nachgefragt",
+      "erklaerung": "Mindestpreise über dem Gleichgewichtspreis führen zu einem Angebot, das größer ist als die Nachfrage, was zu einem Angebotsüberhang führt."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist korrekt, was den Einfluss von Subventionen auf die Nachfrage und den Marktpreis betrifft?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Löschfristen, Zugriffsrollen und Verantwortlichkeiten, Beteiligungsrechte einer Arbeitnehmervertretung",
-      "erklaerung": "Nach der Klärung der Datenschutzaspekte müssen auch Löschfristen, Zugriffsrollen und Verantwortlichkeiten sowie Beteiligungsrechte einer Arbeitnehmervertretung berücksichtigt werden."
+      "loesung": "Subventionen reduzieren die Produktionskosten, was die Nachfrage steigert und den Marktpreis senkt, während die Menge steigt.",
+      "erklaerung": "Subventionen beeinflussen die Nachfrage und den Marktpreis, indem sie die Produktionskosten senken, was die Nachfrage steigert und den Marktpreis senkt."
     }
   ],
-  "Compliance_Triage_NB-204_Zwischenversion 1.pdf": [
+  "03_Erarbeitung_Marktformen_geloest.pdf": [
     {
-      "frage": "Welche der folgenden Punkte sind als unklar gekennzeichnet, sodass das Monitoring vor dem Produktiv-Rollout gestoppt werden sollte?",
+      "frage": "Welche Marktform tritt auf, wenn es viele Anbieter und wenige Nachfrager gibt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Zweck und Rechtsgrundlage des Monitorings",
-        "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen)",
-        "Konkrete Löschfristen",
-        "Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)"
+        "Nachfrageoligopol",
+        "Angebotsoligopol",
+        "Nachfragemonopol"
       ],
-      "loesung": "Zweck und Rechtsgrundlage des Monitorings, Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen), Konkrete Löschfristen, Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)",
-      "erklaerung": "Es fehlen konkrete Angaben zu Zweck, Rechtsgrundlage, Datenumfang, Löschfristen und Verantwortlichkeiten."
+      "loesung": "Nachfrageoligopol",
+      "erklaerung": "Hier haben wenige Nachfrager mehr Marktmacht."
     },
     {
-      "frage": "Weshalb sollte das Monitoring vorerst in einer kontrollierten Testumgebung laufen und nicht in der Produktivumgebung?",
+      "frage": "Wieviele Anbieter gibt es in einer zweiseitigen Marktform, bei der die Anbieter die Marktmacht haben?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "wenige",
+        "viele",
+        "einer"
+      ],
+      "loesung": "wenige",
+      "erklaerung": "In zweiseitigen Marktformen, bei denen die Anbieter die Marktmacht haben, gibt es wenige Anbieter."
+    },
+    {
+      "frage": "In welcher Marktform haben beide Seiten der Marktteilnehmer gleich viel Marktmacht?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Polypol",
+        "Angebotsoligopol",
+        "ausgeglichene Marktmacht"
+      ],
+      "loesung": "ausgeglichene Marktmacht",
+      "erklaerung": "Hier sind die Machtverhältnisse ausgeglichen, da keine Seite eine strukturelle Überlegenheit besitzt."
+    },
+    {
+      "frage": "Welche Marktform tritt auf, wenn es viele Nachfrager gibt und ein einzelner Anbieter die Marktmacht hat?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Nachfrageoligopol",
+        "Angebotsoligopol",
+        "Nachfragemonopol"
+      ],
+      "loesung": "Nachfragemonopol",
+      "erklaerung": "Hier hat ein einzelner Anbieter die Marktmacht."
+    },
+    {
+      "frage": "Was ist die charakteristische Merkmal der Marktteilnehmer in einem Polypol?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "viele Anbieter",
+        "wenige Anbieter",
+        "einer Anbieter"
+      ],
+      "loesung": "viele Anbieter",
+      "erklaerung": "In einem Polypol stehen viele Anbieter auf der Anbieterseite."
+    },
+    {
+      "frage": "In welcher Marktform haben die Nachfrager die Marktmacht, wenn es viele Nachfrager und wenige Anbieter gibt?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Nachfrageoligopol",
+        "Angebotsoligopol",
+        "Nachfragemonopol"
+      ],
+      "loesung": "Nachfrageoligopol",
+      "erklaerung": "Hier haben wenige Anbieter mehr Marktmacht."
+    },
+    {
+      "frage": "Was ist die charakteristische Merkmal der Marktteilnehmer in einem zweiseitigen Oligopol?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "viele Anbieter",
+        "wenige Anbieter",
+        "einer Anbieter"
+      ],
+      "loesung": "wenige Anbieter",
+      "erklaerung": "In einem zweiseitigen Oligopol gibt es wenige Anbieter auf der Anbieterseite."
+    },
+    {
+      "frage": "Welche Marktform tritt auf, wenn es viele Anbieter und viele Nachfrager gibt und die Machtverhältnisse ausgeglichen sind?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Polypol",
+        "ausgeglichene Marktmacht",
+        "zweiseitiges Oligopol"
+      ],
+      "loesung": "Polypol",
+      "erklaerung": "Hier sind die Machtverhältnisse ausgeglichen, da keine Seite eine strukturelle Überlegenheit besitzt."
+    },
+    {
+      "frage": "In welcher Marktform haben die Anbieter die Marktmacht, wenn es viele Anbieter und wenige Nachfrager gibt?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Nachfrageoligopol",
+        "Angebotsoligopol",
+        "Nachfragemonopol"
+      ],
+      "loesung": "Angebotsoligopol",
+      "erklaerung": "Hier haben wenige Nachfrager mehr Marktmacht."
+    },
+    {
+      "frage": "Wie beeinflusst die Anzahl der Marktteilnehmer die Marktmacht in den Marktformen?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Weil die Verarbeitung nachvollziehbar begründet, auf das Notwendige beschränkt, angemessen geschützt und organisatorisch geregelt ist.",
-      "erklaerung": "Die Produktivumgebung erfordert eine vollständige und sorgfältige Dokumentation der Verarbeitung."
-    },
+      "loesung": "Je weniger Marktteilnehmer auf einer Seite stehen (und je größer damit ihr einzelner Marktanteil ist), desto eher können sie Preis und Menge zu ihren Gunsten beeinflussen.",
+      "erklaerung": "Diese Erklärung ist direkt aus dem Lernmaterial entnommen."
+    }
+  ],
+  "01_Erarbeitung Marktformen 1.pdf": [
     {
-      "frage": "Welche der folgenden Punkte sind in der Zwischenversion des Tickets NB-204 als unklar gekennzeichnet?",
+      "frage": "Welche Marktform tritt auf, wenn viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten?",
       "typ": "multiple_choice",
       "optionen": [
-        "Technische Einsatzmöglichkeit des Monitorings",
-        "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen)",
-        "Konkrete Löschfristen",
-        "Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)"
+        "Polypol",
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol"
       ],
-      "loesung": "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen), Konkrete Löschfristen, Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)",
-      "erklaerung": "Es fehlen konkrete Angaben zu Datenumfang, Löschfristen und Verantwortlichkeiten."
+      "loesung": "Polypol",
+      "erklaerung": "Polypol ist definiert als eine Marktform, bei der viele kleine Anbieter und viele kleine Nachfrager miteinander in Konkurrenz treten."
     },
     {
-      "frage": "Welche Prüfpunkte wurden in der Zwischenversion des Tickets NB-204 identifiziert?",
+      "frage": "Welche Marktform ist als die bestmögliche Marktform der Marktwirtschaft angesehen, da ein reger Wettbewerb unter den Anbietern und Nachfrager herrscht?",
       "typ": "multiple_choice",
       "optionen": [
-        "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit",
-        "Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten",
-        "Technische Einsatzmöglichkeit des Monitorings",
-        "Beteiligungsrechte einer Arbeitnehmervertretung"
+        "Polypol",
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol"
       ],
-      "loesung": "Datenschutz: Zweck, Rechtsgrundlage und Erforderlichkeit, Betrieb: Löschfristen, Zugriffsrollen und Verantwortlichkeiten, Beteiligungsrechte einer Arbeitnehmervertretung",
-      "erklaerung": "Die Prüfpunkte beziehen sich auf Datenschutz, Betrieb und Beteiligungsrechte."
+      "loesung": "Polypol",
+      "erklaerung": "Polypol wird als die bestmögliche Marktform der Marktwirtschaft angesehen, da ein reger Wettbewerb unter den Anbietern und Nachfrager herrscht."
     },
     {
-      "frage": "Welche Maßnahmen sollten vor der Freischaltung des Monitorings ergriffen werden?",
+      "frage": "Welche Marktform tritt auf, wenn wenige Anbieter vielen, relativ kleinen Nachfragern gegenüberstehen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Angebotsoligopol",
+      "erklaerung": "Angebotsoligopol ist definiert als eine Marktform, bei der wenige Anbieter vielen, relativ kleinen Nachfragern gegenüberstehen."
+    },
+    {
+      "frage": "Welche Marktform tritt auf, wenn wenige, relativ große Anbieter einem Nachfrager gegenüberstehen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Beschränktes Nachfragemonopol",
+      "erklaerung": "Beschränktes Nachfragemonopol ist definiert als eine Marktform, bei der wenige, relativ große Anbieter einem Nachfrager gegenüberstehen."
+    },
+    {
+      "frage": "Welche Marktform tritt auf, wenn wenige Anbieter wenigen, relativ großen Nachfragern gegenüberstehen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Zweiseitiges Oligopol",
+      "erklaerung": "Zweiseitiges Oligopol ist definiert als eine Marktform, bei der wenige Anbieter wenigen, relativ großen Nachfragern gegenüberstehen."
+    },
+    {
+      "frage": "Welche Marktform ist gekennzeichnet durch den regen Wettbewerb unter den Anbietern und Nachfrager, da sie viele kleine Anbieter und viele kleine Nachfrager umfasst?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Polypol",
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol"
+      ],
+      "loesung": "Polypol",
+      "erklaerung": "Polypol ist gekennzeichnet durch den regen Wettbewerb unter den Anbietern und Nachfrager, da sie viele kleine Anbieter und viele kleine Nachfrager umfasst."
+    },
+    {
+      "frage": "Welche Marktform ist gekennzeichnet durch die Gefahr, dass wenige, große Anbieter einen „Waffenstillstand“ schließen und ihr Marktverhalten untereinander abstimmen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Nachfrageoligopol",
+      "erklaerung": "Nachfrageoligopol ist gekennzeichnet durch die Gefahr, dass wenige, große Anbieter einen „Waffenstillstand“ schließen und ihr Marktverhalten untereinander abstimmen."
+    },
+    {
+      "frage": "Welche Marktform ist gekennzeichnet durch die Marktmacht der wenigen, relativ großen Anbieter, die wenigen, relativ großen Nachfragern gegenüberstehen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Zweiseitiges Oligopol",
+      "erklaerung": "Zweiseitiges Oligopol ist gekennzeichnet durch die Marktmacht der wenigen, relativ großen Anbieter, die wenigen, relativ großen Nachfragern gegenüberstehen."
+    },
+    {
+      "frage": "Welche Marktform ist gekennzeichnet durch den regen Wettbewerb unter den wenigen, relativ großen Anbietern, die wenigen, relativ großen Nachfragern gegenüberstehen?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Angebotsoligopol",
+        "Nachfrageoligopol",
+        "Zweiseitiges Oligopol",
+        "Beschränktes Nachfragemonopol"
+      ],
+      "loesung": "Zweiseitiges Oligopol",
+      "erklaerung": "Zweiseitiges Oligopol ist gekennzeichnet durch den regen Wettbewerb unter den wenigen, relativ großen Anbietern, die wenigen, relativ großen Nachfragern gegenüberstehen."
+    },
+    {
+      "frage": "Welche Marktform ist gekennzeichnet durch die Marktmacht der wenigen, relativ großen Anbieter, die wenigen, relativ großen Nachfragern gegenüberstehen?",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Zweck/Rechtsgrundlage, Datenumfang, Löschfristen und Zugriffsrechte sollten geklärt und dokumentiert werden; die Datenschutzstelle bzw. der Datenschutzbeauftragte ist einzubinden.",
-      "erklaerung": "Es ist wichtig, dass alle relevanten Aspekte dokumentiert und die Datenschutzbeauftragte berücksichtigt wird."
-    },
+      "loesung": "Zweiseitiges Oligopol",
+      "erklaerung": "Zweiseitiges Oligopol ist gekennzeichnet durch die Marktmacht der wenigen, relativ großen Anbieter, die wenigen, relativ großen Nachfragern gegenüberstehen."
+    }
+  ],
+  "02_Problematik Butterberg und Milchsee 1.pdf": [
     {
-      "frage": "Welche der folgenden Punkte sind in der Zwischenversion des Tickets NB-204 als unklar gekennzeichnet?",
+      "frage": "Welche Auswirkung hat die Festlegung von Mindestpreisen auf den Markt?",
       "typ": "multiple_choice",
       "optionen": [
-        "Technische Einsatzmöglichkeit des Monitorings",
-        "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen)",
-        "Konkrete Löschfristen",
-        "Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)"
+        "Es erhöht das Angebot, da Anbieter mehr produzieren, um den Mindestpreis zu erfüllen.",
+        "Es reduziert die Nachfrage, da Verbraucher weniger Milch kaufen.",
+        "Es erhöht die Nachfrage, da Verbraucher mehr Milch kaufen, um den höhen Preisen zu begegnen.",
+        "Es reduziert das Angebot, da Anbieter weniger produzieren, um den Mindestpreis zu erfüllen."
       ],
-      "loesung": "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen), Konkrete Löschfristen, Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)",
-      "erklaerung": "Es fehlen konkrete Angaben zu Datenumfang, Löschfristen und Verantwortlichkeiten."
+      "loesung": "Es erhöht die Nachfrage, da Verbraucher mehr Milch kaufen, um den höhen Preisen zu begegnen.",
+      "erklaerung": "Mindestpreise führen zu einem steigenden Preis, was die Nachfrage erhöht, da mehr Verbraucher bereit sind, den höheren Preis zu zahlen."
     },
     {
-      "frage": "Welche der folgenden Punkte sind in der Zwischenversion des Tickets NB-204 als unklar gekennzeichnet?",
+      "frage": "Welche der folgenden Aussagen ist nicht korrekt, wenn es um die Festlegung von Mindestpreisen geht?",
       "typ": "multiple_choice",
       "optionen": [
-        "Technische Einsatzmöglichkeit des Monitorings",
-        "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen)",
-        "Konkrete Löschfristen",
-        "Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)"
+        "Sie können zu einem Überangebot führen.",
+        "Sie können zu einer Mangelzustand führen.",
+        "Sie können die Nachfrage erhöhen.",
+        "Sie können das Angebot erhöhen."
       ],
-      "loesung": "Datenumfang (Programmnutzung, Nutzungszeiten, Bildschirmaufnahmen), Konkrete Löschfristen, Verantwortlichkeiten (Verarbeitung, Administration, Ansprechperson bei Datenschutzfragen)",
-      "erklaerung": "Es fehlen konkrete Angaben zu Datenumfang, Löschfristen und Verantwortlichkeiten."
+      "loesung": "Sie können zu einer Mangelzustand führen.",
+      "erklaerung": "Mindestpreise führen in der Regel zu einem Überangebot, da Anbieter mehr produzieren, während Verbraucher weniger kaufen."
     },
     {
-      "frage": "Welche Maßnahmen sollten vor der Freischaltung des Monitorings ergriffen werden?",
+      "frage": "Welche der folgenden Eingriffe ist nicht marktkonform?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Subventionen für Milchproduzenten",
+        "Einführung von Mindestpreisen",
+        "Einführung von Steuern auf Milch",
+        "Einführung von Subventionen für Milchverbraucher"
+      ],
+      "loesung": "Einführung von Steuern auf Milch",
+      "erklaerung": "Steuererhöhungen sind nicht marktkonform, da sie den Preis für die Verbraucher steigen lassen, ohne den Markt direkt zu beeinflussen."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist korrekt, wenn es um marktkonforme Eingriffe geht?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Sie beeinflussen den Markt durch direkte Preisregulierung.",
+        "Sie beeinflussen den Markt durch Indirektheit, wie zum Beispiel durch Subventionen.",
+        "Sie beeinflussen den Markt durch direkte Anregungen, wie zum Beispiel durch Fördersubventionen.",
+        "Sie beeinflussen den Markt durch direkte Eingriffe in die Nachfrage."
+      ],
+      "loesung": "Sie beeinflussen den Markt durch Indirektheit, wie zum Beispiel durch Subventionen.",
+      "erklaerung": "Marktkonforme Eingriffe beeinflussen den Markt indirekt, indem sie Anreize oder Unterstützung für Anbieter oder Verbraucher bieten."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist nicht korrekt, wenn es um marktkonforme Eingriffe geht?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Subventionen für Milchproduzenten können das Angebot erhöhen.",
+        "Steuererhöhungen auf Milch können das Angebot reduzieren.",
+        "Mindestpreise können das Angebot erhöhen.",
+        "Subventionen für Milchverbraucher können die Nachfrage erhöhen."
+      ],
+      "loesung": "Mindestpreise können das Angebot erhöhen.",
+      "erklaerung": "Mindestpreise beeinflussen das Angebot nicht direkt, sondern das Angebot kann durch die erhöhte Nachfrage und mögliche Produktionseffizienz steigen, aber nicht durch die Preiskonstitution selbst."
+    },
+    {
+      "frage": "Beschreiben Sie in eigenen Worten die oben dargestellte Karikatur.",
       "typ": "offen",
       "optionen": [],
-      "loesung": "Zweck/Rechtsgrundlage, Datenumfang, Löschfristen und Zugriffsrechte sollten geklärt und dokumentiert werden; die Datenschutzstelle bzw. der Datenschutzbeauftragte ist einzubinden.",
-      "erklaerung": "Es ist wichtig, dass alle relevanten Aspekte dokumentiert und die Datenschutzbeauftragte berücksichtigt wird."
+      "loesung": "Die Karikatur zeigt eine Situation, in der der Marktpreis für Milch aufgrund einer Produktivitätssteigerung auf 1,00 € je Liter gefallen ist. Um die Landwirtschaft zu schützen, wurden Mindestpreise für Milch und Butter festgelegt, die bei 2,00 € je Liter liegen.",
+      "erklaerung": "Die Beschreibung sollte die Situation der Produktivitätssteigerung, den fallenden Marktpreis und die Einführung von Mindestpreisen umfassen."
+    },
+    {
+      "frage": "Welche Auswirkung hat eine Festlegung von Höchstpreisen auf den Markt?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Es reduziert das Angebot, da Anbieter weniger produzieren, um den Höchstpreis zu erfüllen.",
+        "Es erhöht das Angebot, da Anbieter mehr produzieren, um den Höchstpreis zu erfüllen.",
+        "Es reduziert die Nachfrage, da Verbraucher weniger Milch kaufen.",
+        "Es erhöht die Nachfrage, da Verbraucher mehr Milch kaufen."
+      ],
+      "loesung": "Es reduziert das Angebot, da Anbieter weniger produzieren, um den Höchstpreis zu erfüllen.",
+      "erklaerung": "Höchstpreise führen zu einem reduzierten Angebot, da Anbieter weniger produzieren, um den Höchstpreis zu erfüllen."
+    },
+    {
+      "frage": "Welche der folgenden Aussagen ist nicht korrekt, wenn es um die Festlegung von Höchstpreisen geht?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Sie können zu einem Überangebot führen.",
+        "Sie können zu einem Mangelzustand führen.",
+        "Sie können die Nachfrage reduzieren.",
+        "Sie können das Angebot erhöhen."
+      ],
+      "loesung": "Sie können das Angebot erhöhen.",
+      "erklaerung": "Höchstpreise reduzieren das Angebot, da Anbieter weniger produzieren, um den Höchstpreis zu erfüllen."
+    },
+    {
+      "frage": "Welche der folgenden Eingriffe ist nicht marktkonform?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "Subventionen für Milchproduzenten",
+        "Einführung von Mindestpreisen",
+        "Einführung von Steuern auf Milch",
+        "Einführung von Subventionen für Milchverbraucher"
+      ],
+      "loesung": "Einführung von Steuern auf Milch",
+      "erklaerung": "Steuererhöhungen sind nicht marktkonform, da sie den Preis für die Verbraucher steigen lassen, ohne den Markt direkt zu beeinflussen."
+    },
+    {
+      "frage": "Stellen Sie die Situation einer Festlegung von Höchstpreisen grafisch in dem Markt-Preis-Diagramm dar.",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "Das Angebotkurven verschiebt sich nach links, während die Nachfragekurve unverändert bleibt, was zu einem Mangelzustand führt.",
+      "erklaerung": "Die Grafik sollte die Verschiebung der Angebotkurve nach links und den Mangelzustand zeigen."
+    }
+  ],
+  "03_Angebot und Nachfrage 1.pdf": [
+    {
+      "frage": "Welche Preisklasse hat einen Gleichgewichtspreis?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "180,00 €",
+        "200,00 €",
+        "220,00 €",
+        "240,00 €"
+      ],
+      "loesung": "200,00 €",
+      "erklaerung": "Die Menge der Nachfrage (300) entspricht der Menge des Angebots (200) bei 200,00 €."
+    },
+    {
+      "frage": "Welche Preisklasse hat einen Angebotsüberhang?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "160,00 €",
+        "220,00 €",
+        "240,00 €",
+        "260,00 €"
+      ],
+      "loesung": "260,00 €",
+      "erklaerung": "Die Menge des Angebots (500) ist größer als die Menge der Nachfrage (100) bei 260,00 €."
+    },
+    {
+      "frage": "Welche Preisklasse hat einen Nachfrageüberhang?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "160,00 €",
+        "180,00 €",
+        "240,00 €",
+        "280,00 €"
+      ],
+      "loesung": "160,00 €",
+      "erklaerung": "Die Menge der Nachfrage (600) ist größer als die Menge des Angebots (50) bei 160,00 €."
+    },
+    {
+      "frage": "Welche Preisklasse wird wahrscheinlich eine Preissenkung erleben?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "180,00 €",
+        "200,00 €",
+        "220,00 €",
+        "240,00 €"
+      ],
+      "loesung": "220,00 €",
+      "erklaerung": "Da bei 220,00 € die Nachfrage (250) kleiner als die Menge des Angebots (250) ist, wird wahrscheinlich eine Preissenkung erfolgen."
+    },
+    {
+      "frage": "Welche Preisklasse wird wahrscheinlich eine Preissteigerung erleben?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "160,00 €",
+        "180,00 €",
+        "200,00 €",
+        "220,00 €"
+      ],
+      "loesung": "160,00 €",
+      "erklaerung": "Da bei 160,00 € die Menge der Nachfrage (600) größer als die Menge des Angebots (50) ist, wird wahrscheinlich eine Preissteigerung erfolgen."
+    },
+    {
+      "frage": "Welche Preisklasse wird wahrscheinlich die Preise beibehalten?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "180,00 €",
+        "200,00 €",
+        "220,00 €",
+        "240,00 €"
+      ],
+      "loesung": "200,00 €",
+      "erklaerung": "Da bei 200,00 € die Menge der Nachfrage (300) gleich der Menge des Angebots (200) ist, werden die Preise wahrscheinlich beibehalten."
+    },
+    {
+      "frage": "Wie viele Digitalkameras werden bei einem Preis von 200,00 € angeboten?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "200",
+      "erklaerung": "Die Menge des Angebots bei 200,00 € beträgt 200."
+    },
+    {
+      "frage": "Wie viele Digitalkameras werden bei einem Preis von 240,00 € nachgefragt?",
+      "typ": "offen",
+      "optionen": [],
+      "loesung": "200",
+      "erklaerung": "Die Menge der Nachfrage bei 240,00 € beträgt 200."
+    },
+    {
+      "frage": "Welche Preisklasse hat einen Gleichgewichtspreis?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "180,00 €",
+        "200,00 €",
+        "220,00 €",
+        "240,00 €"
+      ],
+      "loesung": "200,00 €",
+      "erklaerung": "Die Menge der Nachfrage (300) entspricht der Menge des Angebots (200) bei 200,00 €."
+    },
+    {
+      "frage": "Welche Preisklasse hat einen Angebotsüberhang?",
+      "typ": "multiple_choice",
+      "optionen": [
+        "160,00 €",
+        "220,00 €",
+        "240,00 €",
+        "260,00 €"
+      ],
+      "loesung": "260,00 €",
+      "erklaerung": "Die Menge des Angebots (500) ist größer als die Menge der Nachfrage (100) bei 260,00 €."
     }
   ]
 }
