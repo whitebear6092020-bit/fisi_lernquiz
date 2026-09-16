@@ -1,1 +1,265 @@
-
+[
+  {
+    "frage": "Was ist das Hauptmerkmal eines IT-Projekts im Vergleich zu anderen Projekten?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "A) Es hat einen festen Zeitplan.",
+      "B) Es ist ein einziges, eindeutiges Vorhaben.",
+      "C) Es erfordert weniger Ressourcen.",
+      "D) Es ist weniger komplex."
+    ],
+    "loesung": "B) Es ist ein einziges, eindeutiges Vorhaben.",
+    "erklaerung": "IT-Projekte sind einzigartig und haben einen festen Zeitplan, was sie von anderen Projekten unterscheidet, die möglicherweise wiederholt werden können."
+  },
+  {
+    "frage": "Welche der folgenden Punkte ist ein IT-Projekt nicht unbedingt charakteristisch?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "A) Festes Budget",
+      "B) Festes Ziel",
+      "C) Komplexe Anforderungen",
+      "D) Unsichtbare Arbeit"
+    ],
+    "loesung": "A) Festes Budget",
+    "erklaerung": "IT-Projekte haben oft ein festeres Ziel und komplexe Anforderungen, aber das Budget ist nicht immer so fest wie angenommen."
+  },
+  {
+    "frage": "Was ist ein Definition of Done (DoD) in einem IT-Projekt?",
+    "typ": "offen",
+    "loesung": "Ein Definition of Done ist eine Liste von Kriterien, die erfüllt sein müssen, bevor ein Feature oder eine Funktion als abgeschlossen angesehen wird.",
+    "erklaerung": "Es ist eine wichtige Methode, um die Komplettierung von Arbeit zu definieren und zu kontrollieren.",
+    "optionen": []
+  },
+  {
+    "frage": "Welche der folgenden ist ein Risiko in einem IT-Projekt?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "A) Veränderungen in den Anforderungen",
+      "B) Festes Budget",
+      "C) Eindeutige Zieldefinition",
+      "D) Festes Team"
+    ],
+    "loesung": "A) Veränderungen in den Anforderungen",
+    "erklaerung": "Veränderungen in den Anforderungen sind ein häufiges und schwieriges Risiko in IT-Projekten."
+  },
+  {
+    "frage": "Was ist das Hauptziel eines Zielgesprächs in einem IT-Projekt?",
+    "typ": "offen",
+    "loesung": "Das Hauptziel ist Klarheit schaffen und Erwartungen managen.",
+    "erklaerung": "Es ist ein wichtiger Schritt, um die Erwartungen der Stakeholder zu klären und zu managen.",
+    "optionen": []
+  },
+  {
+    "frage": "Welche der folgenden ist nicht ein typisches IT-Projekt?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "A) Rechenzentrums-Umzug",
+      "B) System-Migration",
+      "C) Einführung einer neuen Software",
+      "D) Bau eines Wohnblocks"
+    ],
+    "loesung": "D) Bau eines Wohnblocks",
+    "erklaerung": "Bau eines Wohnblocks ist kein IT-Projekt, sondern ein Bauprojekt."
+  },
+  {
+    "frage": "Welche der folgenden Punkte ist ein IT-Projekt nicht unbedingt charakteristisch?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "A) Festes Ziel",
+      "B) Komplexe Anforderungen",
+      "C) Unsichtbare Arbeit",
+      "D) Festes Budget"
+    ],
+    "loesung": "D) Festes Budget",
+    "erklaerung": "IT-Projekte haben oft ein festeres Ziel und komplexe Anforderungen, aber das Budget ist nicht immer so fest wie angenommen."
+  },
+  {
+    "frage": "Was ist ein Hauptunterschied zwischen IT-Projekten und anderen Projekten in Bezug auf die Abhängigkeiten?",
+    "typ": "offen",
+    "loesung": "IT-Projekte haben oft hohe Abhängigkeiten zu Hardware, Netzwerke, Virtualisierung, Software, was sie von anderen Projekten unterscheidet.",
+    "erklaerung": "Diese Abhängigkeiten können komplex und dynamisch sein, was IT-Projekte zu einem besonderen Management erfordert.",
+    "optionen": []
+  }
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Unterschiede zwischen interne und externen Projekten?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Interne Projekte haben keine formale Vertragsbindung.",
+      "Externe Projekte haben keine formale Vertragsbindung.",
+      "Interne Projekte haben keine wirtschaftlichen Auswirkungen im Unternehmen.",
+      "Externe Projekte haben keine organisatorischen Auswirkungen bei Projektverzug oder -scheitern."
+    ],
+    "loesung": "Interne Projekte haben keine formale Vertragsbindung.",
+    "erklaerung": "Interne Projekte haben keine formale Vertragsbindung, während externe Projekte solche haben."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich des Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Lastenheft beschreibt das Wie und Womit der Umsetzung.",
+      "Das Lastenheft dient als Vertragsgrundlage und ist rechtlich bindend.",
+      "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts.",
+      "Das Lastenheft ist nicht notwendig in internen Projekten."
+    ],
+    "loesung": "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts.",
+    "erklaerung": "Das Lastenheft enthält spezifische Anforderungen und Ziele des Projekts, während es nicht immer rechtlich bindend ist und nicht immer notwendig ist in internen Projekten."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich des Pflichtenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Pflichtenheft beschreibt das Was und Warum des Projekts.",
+      "Das Pflichtenheft ist nicht rechtlich bindend.",
+      "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
+      "Das Pflichtenheft ist nur in externen Projekten erforderlich."
+    ],
+    "loesung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
+    "erklaerung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen, während es rechtlich bindend ist und in internen und externen Projekten verwendet werden kann."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Lastenheft sollte nur funktionalen Anforderungen widmen.",
+      "Das Lastenheft sollte nicht SMART-Ziele enthalten.",
+      "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein.",
+      "Das Lastenheft sollte keine technischen Anforderungen enthalten."
+    ],
+    "loesung": "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein.",
+    "erklaerung": "Das Lastenheft sollte Anforderungen und Ziele spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein, um klare Erwartungen zu setzen."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Rechtsfolgen des Lastenhefts?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Lastenheft hat keine rechtliche Bedeutung.",
+      "Das Lastenheft kann als Vertragsgrundlage dienen.",
+      "Das Lastenheft ist nur ein Informationsdokument.",
+      "Das Lastenheft hat keine Auswirkungen auf die Projektabnahme."
+    ],
+    "loesung": "Das Lastenheft kann als Vertragsgrundlage dienen.",
+    "erklaerung": "Das Lastenheft kann als Vertragsgrundlage dienen, wenn es explizit im Vertrag erwähnt oder angehängt wird."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Pflichtenhefte?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Das Pflichtenheft beschreibt das Was und Warum des Projekts.",
+      "Das Pflichtenheft ist nicht rechtlich bindend.",
+      "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
+      "Das Pflichtenheft ist nur in externen Projekten erforderlich."
+    ],
+    "loesung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen.",
+    "erklaerung": "Das Pflichtenheft enthält technische Umsetzungsanweisungen, während es rechtlich bindend ist und in internen und externen Projekten verwendet werden kann."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Lastenhefts?",
+    "typ": "offen",
+    "optionen": [],
+    "loesung": "Das Lastenheft sollte die Anforderungen und Ziele des Projekts spezifisch, messbar, erreichbar, relevant und zeitlich definiert (SMART) sein, um eine klare Kommunikation zwischen Auftraggeber und Auftragnehmer sicherzustellen.",
+    "erklaerung": "Die SMART-Ziele sind ein wichtiges Instrument zur Verifikation der Ziele des Projekts und helfen, die Erwartungen der Stakeholder zu formalisieren."
+  },
+  {
+    "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Erstellung eines Pflichtenhefts?",
+    "typ": "offen",
+    "optionen": [],
+    "loesung": "Das Pflichtenheft sollte technische Umsetzungsanweisungen enthalten, um die Umsetzung der Anforderungen des Lastenhefts zu garantieren. Es sollte spezifisch auf die Umsetzung des Projekts abzielen und rechtlich bindend sein.",
+    "erklaerung": "Das Pflichtenheft ist ein technisches Dokument, das die spezifischen Umsetzungsanweisungen für das Projekt enthält und rechtlich bindend ist, wenn von beiden Seiten akzeptiert."
+  }
+  {
+    "frage": "Welche der folgenden Phasen gehört nicht zum Vom IT-Projekt in den IT-Betrieb?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Local DEV-System",
+      "System-Test",
+      "Staging",
+      "Change-Request"
+    ],
+    "loesung": "Change-Request",
+    "erklaerung": "Change-Request ist ein Verwaltungsprozess und gehört nicht zur Übergabephase."
+  },
+  {
+    "frage": "Welcher Prozess ist laut ITIL nicht definiert?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Tools Management"
+    ],
+    "loesung": "Tools Management",
+    "erklaerung": "ITIL definiert keine Tools, sondern Prozesse."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist nicht Teil der ITIL Prozesse?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Software Development"
+    ],
+    "loesung": "Software Development",
+    "erklaerung": "Software Development ist kein ITIL-Prozess, sondern ein Entwicklungsprozess."
+  },
+  {
+    "frage": "Welche der folgenden Phasen gehört zum Betriebsübergabe in die IT?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Schulung",
+      "Integration/",
+      "Produktion",
+      "Test/Abnahme"
+    ],
+    "loesung": "Test/Abnahme",
+    "erklaerung": "Test/Abnahme ist eine der Phasen bei der Betriebsübergabe in die IT."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist Teil der ITIL Service Support Prozesse?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Service Level Management",
+      "Financial Management",
+      "Change Management",
+      "Release Management"
+    ],
+    "loesung": "Service Level Management",
+    "erklaerung": "Service Level Management ist ein Teil der ITIL Service Support Prozesse."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist Teil der ITIL Service Delivery Prozesse?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Incident Management",
+      "Problem Management",
+      "Configuration Management",
+      "Service Level Management"
+    ],
+    "loesung": "Incident Management",
+    "erklaerung": "Incident Management ist ein Teil der ITIL Service Delivery Prozesse."
+  },
+  {
+    "frage": "Welche der folgenden Prozesse ist nicht Teil der ITIL Prozesse?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Configuration Management",
+      "Problem Management",
+      "Service Level Management",
+      "Software Development"
+    ],
+    "loesung": "Software Development",
+    "erklaerung": "Software Development ist kein ITIL-Prozess, sondern ein Entwicklungsprozess."
+  },
+  {
+    "frage": "Welche der folgenden Phasen gehört nicht zum Vom IT-Projekt in den IT-Betrieb?",
+    "typ": "multiple_choice",
+    "optionen": [
+      "Local DEV-System",
+      "System-Test",
+      "Betriebsübergabe in die IT",
+      "Change-Request"
+    ],
+    "loesung": "Change-Request",
+    "erklaerung": "Change-Request ist ein Verwaltungsprozess und gehört nicht zur Übergabephase."
+  }
+]
