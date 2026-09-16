@@ -79,7 +79,7 @@
     "loesung": "IT-Projekte haben oft hohe Abhängigkeiten zu Hardware, Netzwerke, Virtualisierung, Software, was sie von anderen Projekten unterscheidet.",
     "erklaerung": "Diese Abhängigkeiten können komplex und dynamisch sein, was IT-Projekte zu einem besonderen Management erfordert.",
     "optionen": []
-  }
+  },
   {
     "frage": "Welche der folgenden Aussagen ist korrekt bezüglich der Unterschiede zwischen interne und externen Projekten?",
     "typ": "multiple_choice",
@@ -165,7 +165,7 @@
     "optionen": [],
     "loesung": "Das Pflichtenheft sollte technische Umsetzungsanweisungen enthalten, um die Umsetzung der Anforderungen des Lastenhefts zu garantieren. Es sollte spezifisch auf die Umsetzung des Projekts abzielen und rechtlich bindend sein.",
     "erklaerung": "Das Pflichtenheft ist ein technisches Dokument, das die spezifischen Umsetzungsanweisungen für das Projekt enthält und rechtlich bindend ist, wenn von beiden Seiten akzeptiert."
-  }
+  },
   {
     "frage": "Welche der folgenden Phasen gehört nicht zum Vom IT-Projekt in den IT-Betrieb?",
     "typ": "multiple_choice",
