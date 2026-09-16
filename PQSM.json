@@ -35,13 +35,6 @@
     "erklaerung": "Ein Infrastrukturprojekt/Softwareentwicklung umfasst den Aufbau einer virtuellen Infrastruktur, Einrichtung eines Multi-Container-Setups oder Entwicklung eines Wordpress-Plugins."
   },
   {
-    "frage": "Was ist ein 'Definition of Done' (DoD) in der Projektplanung?",
-    "typ": "offen",
-    "optionen": [],
-    "loesung": "Eine Definition of Done (DoD) ist eine Kriterienliste, die definiert, wann ein Teil des Projekts oder ein Feature als fertig betrachtet wird.",
-    "erklaerung": "DoD ist ein wichtiges Instrument, um die Abgeschlossenheit von Arbeitseinsätzen in einem Projekt zu definieren."
-  },
-  {
     "frage": "Welche der folgenden Aspekte ist in einem Zielgespräch wichtig, um Erwartungen zu managen?",
     "typ": "multiple_choice",
     "optionen": [
@@ -76,13 +69,6 @@
     ],
     "loesung": "Datenmodelle",
     "erklaerung": "Datenmodelle sind oft nicht direkt sichtbar, aber essentiell für die Umsetzung und Steuerung von IT-Projekten."
-  },
-  {
-    "frage": "Was ist ein 'Scope & Nicht-Scope' in einem IT-Projekt?",
-    "typ": "offen",
-    "optionen": [],
-    "loesung": "Scope & Nicht-Scope definiert, was in einem IT-Projekt enthalten ist und was nicht, um Klarheit über die Grenzen des Projekts zu schaffen.",
-    "erklaerung": "Scope & Nicht-Scope ist ein wichtiger Bestandteil der Projektplanung, um die Tätigkeiten und deren Grenzen klar zu definieren."
   },
   {
     "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Unterschied zwischen Lastenheft und Pflichtenheft?",
@@ -167,13 +153,6 @@
     ],
     "loesung": "Es beginnt immer mit der Analyse der Ausgangssituation.",
     "erklaerung": "Das Lastenheft beginnt immer mit der Analyse der Ausgangssituation, um den Kontext des Projekts zu verstehen."
-  },
-  {
-    "frage": "Welche der folgenden Aussagen ist CORRECT in Bezug auf den Pflichtenheft?",
-    "typ": "offen",
-    "optionen": [],
-    "loesung": "Das Pflichtenheft beschreibt die technische Umsetzung, einschließlich der technologischen und organisatorischen Spezifikationen, Lieferzeiten und Kostenrahmen.",
-    "erklaerung": "Das Pflichtenheft beschreibt die technische Umsetzung, einschließlich der technologischen und organisatorischen Spezifikationen, Lieferzeiten und Kostenrahmen."
   },
   {
     "frage": "Welche der folgenden Prozesse ist KEIN Teil des ITIL-Frameworks?",
